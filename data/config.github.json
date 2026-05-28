@@ -4,6 +4,7 @@
     "provider": "openai",
     "model": "deepseek-v4-pro",
     "api_key_env": "DEEPSEEK_API_KEY",
+    "base_url": "https://api.deepseek.com",
     "temperature": 0.3,
     "max_tokens": 65535,
     "throttle_sec": 0,
