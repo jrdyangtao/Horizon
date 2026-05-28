@@ -37,6 +37,16 @@
         "enabled": true
       }
     ],
+    "telegram": {
+      "enabled": true,
+      "channels": [
+        {
+          "channel": "zaihuapd",
+          "enabled": true,
+          "fetch_limit": 20
+        }
+      ]
+    },
     "hackernews": {
       "enabled": true,
       "fetch_top_stories": 20,
@@ -54,6 +64,26 @@
         "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
         "enabled": false,
         "category": "linux"
+      },
+      {
+        "name": "量子位",
+        "url": "https://wechat2rss.xlab.app/feed/7131b577c61365cb47e81000738c10d872685908.xml",
+        "enabled": true
+      },
+      {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/atom/everything/",
+        "enabled": true
+      },
+      {
+        "name": "AI Weekly",
+        "url": "https://aiweekly.co/issues.rss",
+        "enabled": true
+      },
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/feed/",
+        "enabled": true
       }
     ],
     "reddit": {
@@ -66,6 +96,14 @@
           "time_filter": "day",
           "fetch_limit": 15,
           "min_score": 50
+        },
+        {
+          "subreddit": "MachineLearning",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 60
         }
       ],
       "users": [
