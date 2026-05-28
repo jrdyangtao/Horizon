@@ -5,406 +5,571 @@ date: 2026-05-28
 lang: zh
 ---
 
-> 从 30 条内容中筛选出 19 条重要资讯。
+> 从 63 条内容中筛选出 27 条重要资讯。
 
 ---
 
-1. [五款前沿大语言模型在 67%事实核查中意见不一](#item-1) ⭐️ 8.0/10
-2. [加州大学教师因严重数学缺陷要求恢复 STEM 招生 SAT 考试](#item-2) ⭐️ 8.0/10
-3. [AMD 突发变更：Vivado Linux 版转为付费，嵌入式开发者不满](#item-3) ⭐️ 8.0/10
-4. [Anthropic 和 OpenAI 通过企业 API 实现产品市场契合](#item-4) ⭐️ 8.0/10
-5. [curl 维护者因 AI 辅助安全报告激增面临职业倦怠](#item-5) ⭐️ 8.0/10
-6. [微软 Copilot Cowork 通过提示注入泄露用户文件](#item-6) ⭐️ 8.0/10
-7. [TritonMoE：跨平台融合 MoE 内核实现可移植专家路由](#item-7) ⭐️ 8.0/10
-8. [NeuroFlow：通过 EMA 门控令牌剪枝实现 ViT 视频推理 55.8 倍加速](#item-8) ⭐️ 8.0/10
-9. [YouTube 将自动标记 AI 生成视频](#item-9) ⭐️ 7.0/10
-10. [Hallucinate：开源大型多人在线锐舞派对平台](#item-10) ⭐️ 7.0/10
-11. [《模拟城市 3000》4K 分辨率运行：技术回顾](#item-11) ⭐️ 7.0/10
-12. [苹果和谷歌的推送通知控制引发营销与用户注意力之争](#item-12) ⭐️ 7.0/10
-13. [探索网状网络：Meshtastic、MeshCore 与 Reticulum](#item-13) ⭐️ 7.0/10
-14. [SQLite 为 AI 代理添加 AGENTS.md 指引文件](#item-14) ⭐️ 7.0/10
-15. [MONET：超 1 亿高质量精选图文数据集发布](#item-15) ⭐️ 7.0/10
-16. [AI 生成的 CUDA 内核通过基准测试但在生产中静默失败](#item-16) ⭐️ 7.0/10
-17. [Tomesphere: 集成内联评论、引用图谱和语义邻居的 arXiv 论文聚合 Chrome 扩展](#item-17) ⭐️ 7.0/10
-18. [CSM 在 BEAM 100K 上以更少令牌超越 Hindsight，但速度较慢](#item-18) ⭐️ 6.0/10
-19. [基于 CUDA 事件的 PyTorch 训练轻量分析](#item-19) ⭐️ 6.0/10
+1. [Anthropic 向公众发布曾受限的五角大楼模型 Mythos](#item-1) ⭐️ 9.0/10
+2. [只需使用 PostgreSQL 即可实现持久工作流](#item-2) ⭐️ 8.0/10
+3. [Anthropic 和 OpenAI 达到产品市场契合，企业转向 API 计费](#item-3) ⭐️ 8.0/10
+4. [AI 生成的 CUDA 内核通过基准却导致训练静默失败](#item-4) ⭐️ 8.0/10
+5. [Wall-OSS-0.5：开源 4B VLA 模型实现零样本真实机器人评估](#item-5) ⭐️ 8.0/10
+6. [AgingBench 显示编程代理长期部署性能下降，更强模型可能老化更严重](#item-6) ⭐️ 8.0/10
+7. [基于 Triton 的跨平台融合 MoE 调度内核](#item-7) ⭐️ 8.0/10
+8. [英伟达因出口管制基本放弃中国 AI 芯片市场](#item-8) ⭐️ 8.0/10
+9. [高通与字节跳动达成定制 AI ASIC 合作，将采购数百万颗芯片](#item-9) ⭐️ 8.0/10
+10. [美司法部要求 Reddit 和 X 提供批评 ICE 账号信息](#item-10) ⭐️ 8.0/10
+11. [Anthropic 发布 Claude Opus 4.8，小幅提升并预告 Mythos 模型](#item-11) ⭐️ 7.0/10
+12. [浏览器大型多人在线锐舞体验开源发布](#item-12) ⭐️ 7.0/10
+13. [SQLite 新增 AGENTS.md 文件：不接受 AI 代理生成代码，但接受附带测试的 AI 生成错误报告](#item-13) ⭐️ 7.0/10
+14. [curl 项目被 AI 辅助的安全报告淹没](#item-14) ⭐️ 7.0/10
+15. [MONET 数据集发布：1.049 亿高质量图像-文本对，采用 Apache 2.0 许可](#item-15) ⭐️ 7.0/10
+16. [Tomesphere：聚合 Arxiv 论文的评审、代码与语义图谱](#item-16) ⭐️ 7.0/10
+17. [YouTube 将从 2026 年 5 月起自动标注 AI 生成视频并突出标签](#item-17) ⭐️ 7.0/10
+18. [DOMD：20 KB 内核、本地优先的自研渲染 Markdown 所见即所得编辑器](#item-18) ⭐️ 7.0/10
+19. [黄仁勋：台湾是 AI 革命中心，英伟达计划年投 1500 亿美元](#item-19) ⭐️ 7.0/10
+20. [中国将为人形机器人分配数字 ID](#item-20) ⭐️ 7.0/10
+21. [比亚迪发布 4nm 智驾芯片“璇玑 A3”](#item-21) ⭐️ 7.0/10
+22. [「继续？是/否」游戏模拟 AI 代理权限疲劳](#item-22) ⭐️ 6.0/10
+23. [欧盟对 Temu 罚款 2 亿欧元，因其平台销售非法商品](#item-23) ⭐️ 6.0/10
+24. [VeritasReason：面向可解释 AI 智能体的开源知识图谱与策略引擎](#item-24) ⭐️ 6.0/10
+25. [CSM 在 BEAM 100K 基准测试中表现优于 Hindsight 且使用更少令牌](#item-25) ⭐️ 6.0/10
+26. [使用 CUDA 事件对 PyTorch 训练进行性能分析而不导致 GPU 停滞](#item-26) ⭐️ 6.0/10
+27. [索尼发布 Bravia 9 II 与 7 II，首次将独立 RGB LED 背光带入消费电视](#item-27) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [五款前沿大语言模型在 67%事实核查中意见不一](https://lenz.io/research/llm-disagreement) ⭐️ 8.0/10
+## [Anthropic 向公众发布曾受限的五角大楼模型 Mythos](https://aiweekly.co/issues/anthropics-pentagon-model-is-now-everyones-model) ⭐️ 9.0/10
 
-一项研究对五款前沿大语言模型在 1000 条真实世界事实核查声明上进行测试，发现它们在 67%的声明上存在分歧，且没有模型始终准确。 这暴露了使用大语言模型进行事实核查的严重可靠性问题，在人们日益依赖 AI 获取信息的背景下削弱了信任。 模型被强制从“真实”、“基本真实”、“误导”或“虚假”中选择，无弃权选项；声明来自用户提交的真实事实核查平台，缺乏“未知”类别可能放大了分歧率。
+Anthropic 发布了此前仅限已审批承包商使用的高级大语言模型 Mythos，现可供公众使用。DeepMind 的 AlphaProof Nexus 自主解决了九个开放的 Erdős 问题，使 Demis Hassabis 将其 AGI 时间表提前至 2029 年可能实现。 Mythos 的公开消除了军用级与民用 AI 之间的重要壁垒，使强大能力的获取民主化。AGI 时间表的加速表明，顶尖研究人员看到了通用人工智能的近期路径，对社会和经济具有深远影响。 Mythos 在测试中发现所有主要操作系统和浏览器均存在漏洞，引发安全担忧。AlphaProof Nexus 使用 Lean 编译器进行自动验证，但仅成功解决了 2.5% 的 Erdős 问题，每次推理成本数百美元。Starlette 的关键零日漏洞影响 AI 代理，Glassworm 僵尸网络通过 Solana 区块链和 BitTorrent DHT 基础设施被捣毁。
 
-hackernews · kostaj · 5月28日 12:20 · [社区讨论](https://news.ycombinator.com/item?id=48307887)
+rss · AI Weekly · 5月27日 00:00
 
-**背景**: 前沿大语言模型（如 GPT-4、Gemini 等）是最先进的大型语言模型，以强大性能著称，但也常自信地输出错误信息。事实核查对 AI 可靠性至关重要，但这些模型经常给出不一致的判断。
+**背景**: Mythos 是 Anthropic 最先进的模型，在基准测试中比 Claude Opus 4.6 有显著提升。AlphaProof Nexus 是基于 Lean 证明助手的数学专用 AI 系统，与 OpenAI 的自然语言方法不同。Glassworm 僵尸网络通过毒化软件包攻击开发者，使用 Solana 和 BitTorrent 实现弹性指挥控制。主权 AI 合作涉及各国确保 AI 能力符合国家安全利益。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://dev.to/rod_schneider/frontier-llms-their-strengths-and-pitfalls-2m48">Frontier LLMs: Their Strengths and Pitfalls - DEV Community</a></li>
-<li><a href="https://grokipedia.com/page/Frontier_AI_models">Frontier AI models</a></li>
+<li><a href="https://the-decoder.com/google-deepminds-alphaproof-nexus-solves-decades-old-math-problems-for-a-few-hundred-dollars/">Google Deepmind's AlphaProof Nexus solves decades-old math ...</a></li>
+<li><a href="https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/">Inside CrowdStrike’s Takedown of a Developer-Targeting Botnet</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Mythos">Claude Mythos - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论指出，强制选择且无“未知”选项导致结果偏差；诸如“外星生命存在”等模糊声明本身无绝对真相；有人质疑报告可能由 AI 生成，存在伦理问题；未纳入 Grok 模型被批评错过了有趣的对比。
-
-**标签**: `#LLM`, `#fact-checking`, `#AI evaluation`, `#reliability`, `#disagreement`
+**标签**: `#AI industry`, `#AGI`, `#cybersecurity`, `#workforce impact`, `#AI policy`
 
 ---
 
 <a id="item-2"></a>
-## [加州大学教师因严重数学缺陷要求恢复 STEM 招生 SAT 考试](https://www.latimes.com/california/story/2026-05-27/uc-math-professors-demand-return-of-sat-for-stem-admissions) ⭐️ 8.0/10
+## [只需使用 PostgreSQL 即可实现持久工作流](https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution) ⭐️ 8.0/10
 
-加州大学教师要求恢复 STEM 专业招生的 SAT 考试，理由是新生的数学基础严重不足，导致教师不得不重新教授中学数学内容。 此举挑战了考试可选运动，认为取消标准化考试加剧了成绩膨胀，并损害了弱势学生，因为他们无法获得现在填补评估空白的昂贵课外活动。 教师们在信中指出，差距之大使得教师不得不在教授大学内容的同时重新教授中学数学，并将数学缺陷的激增直接与取消 SAT 挂钩。
+该博文主张，利用 PostgreSQL 的可靠性和事务完整性，可以构建出足以替代专用工作流引擎的持久工作流执行系统。 该方法通过将工作流状态集中到熟悉的、久经考验的数据库中，简化了应用架构，降低了运维复杂性及对专用服务的依赖。 社区成员指出，虽然 PostgreSQL 在中等规模下表现良好，但当数据量超过 TB 级别时可能成为瓶颈，最终可能需要迁移到专用系统。已有'absurd'和 DBOS 等概念验证实现。
 
-hackernews · brandonb · 5月28日 14:13 · [社区讨论](https://news.ycombinator.com/item?id=48309233)
+hackernews · KraftyOne · 5月28日 18:41 · [社区讨论](https://news.ycombinator.com/item?id=48313530)
 
-**背景**: 2020 年，加州大学系统以公平为由取消了 SAT/ACT 要求，这是一股全国性考试可选趋势的一部分。此后，加州的教育政策重心从机会平等转向了结果公平，并引发争议，例如试图限制微积分等高级数学课程。恢复考试的理由源于 STEM 专业学生准备程度的明显下降。
+**背景**: 持久工作流确保即使在失败、重试和中断时也能可靠执行，实现严格一次完成语义，在金融系统和微服务中至关重要。PostgreSQL 凭借其原子事务和行级锁，可以建模状态机和队列，从而成为 Temporal 或 AWS Step Functions 等专用工作流引擎的可行替代方案。
 
-**社区讨论**: 评论者指出，取消 SAT 掩盖了成绩膨胀并造成不公平竞争，因为来自标准宽松学校的 4.0 GPA 看起来与严格学校的别无二致。他们认为，与昂贵的课外活动相比，标准化考试是一种可负担的衡量标准，但也有人反驳说应强制执行先修课程而非补救教学。其他人则强调了数字干扰和现代数学教学法的无效性。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://medium.com/@platform-alchemist/durable-workflows-the-5d-chess-engine-that-escaped-banking-systems-and-entered-modern-software-9ac9366a57b6">Durable Workflows : The 5D Chess Engine That Escaped... | Medium</a></li>
+<li><a href="https://docs.hatchet.run/v1/durable-workflows-overview">Durable Workflows - Hatchet Documentation</a></li>
 
-**标签**: `#education`, `#STEM`, `#admissions`, `#standardized-testing`, `#math-deficits`
+</ul>
+</details>
+
+**社区讨论**: 讨论总体积极，用户分享了将 PostgreSQL 作为多用途后端的实际使用经验，但也提醒注意其扩展限制。文中提到了'absurd'和 Conductor OSS 等替代方案，部分人对更好的状态管理抽象表达了期待。
+
+**标签**: `#postgresql`, `#durable-workflows`, `#workflow-engine`, `#state-machines`, `#software-architecture`
 
 ---
 
 <a id="item-3"></a>
-## [AMD 突发变更：Vivado Linux 版转为付费，嵌入式开发者不满](https://itsfoss.com/news/amd-vivado-bait-and-switch-on-linux-users/) ⭐️ 8.0/10
+## [Anthropic 和 OpenAI 达到产品市场契合，企业转向 API 计费](https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything) ⭐️ 8.0/10
 
-AMD 突然改变政策，不再提供 Vivado 设计套件标准版的免费 Linux 版本，转而要求付费许可证。此前 Linux 用户可免费使用该 FPGA 开发软件。 此举疏远了依赖免费工具进行原型设计和学习的爱好者、学生和小型开发者，可能迫使 FPGA 社区转向开源替代方案，并损害 AMD 在嵌入式工程师中的声誉。 Vivado 是 AMD 自适应 SoC 和 FPGA 的主要设计套件，提供综合、实现和仿真功能。此次许可变更仅针对 Linux 版本，Windows 版可能仍保留免费层，且不影响付费版本。
+Anthropic 被传即将实现首次季度盈利，同时 Anthropic 和 OpenAI 都将企业级编程工具从固定费率套餐转向了按 token 计费的 API 模式，显示企业每用户月开销可达数千美元。 这标志着企业对大语言模型的使用已从试验阶段进入关键业务部署，验证了 AI 模型的商业可行性，并重塑了 AI 产业的经济模式。 Anthropic 企业版现为每席位 20 美元外加 API 使用费，发言人确认这一变更于 2025 年 11 月发生。OpenAI Codex 在 2026 年 4 月对所有计划（包括现有企业协议）改为 API token 计费。一名重度用户通过 Claude Code 和 Codex 的月度 token 消耗估计超过 2,180 美元，而固定费率订阅者仅支付 200 美元。
 
-hackernews · teleforce · 5月28日 10:56 · [社区讨论](https://news.ycombinator.com/item?id=48307231)
+rss · Simon Willison · 5月27日 16:38
 
-**背景**: Vivado 最初由赛灵思（2022 年被 AMD 收购）开发，是用于现场可编程门阵列（FPGA）的集成设计环境。FPGA 是可重构芯片，广泛用于原型设计、电信和嵌入式系统。Vivado 历来为低端器件提供免费标准版，培育了广泛的用户群。
+**背景**: 产品市场契合指公司产品满足强烈市场需求。Claude Code 和 OpenAI Codex 是基于大语言模型的 AI 编程代理，可自主编写、编辑和运行代码。此前，企业 AI 工具以固定费率订阅方式销售，但随着使用量激增，提供商转向按用量计费，以便从重度用户处获取价值。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Vivado">Vivado</a></li>
-<li><a href="https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/vivado.html">Vivado Overview - AMD</a></li>
-<li><a href="https://en.wikipedia.org/wiki/FPGA">FPGA</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Code">Claude Code</a></li>
+<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反应普遍负面，用户认为 AMD 错失良机、损害了声誉。许多人担心这会提高原型设计门槛，一些顾问表示将不再推荐 AMD 产品。也有人指出 Linux 用户群正在增长，AMD 此举意在商业化而非放弃支持。
-
-**标签**: `#FPGA`, `#Vivado`, `#AMD`, `#Linux`, `#licensing`
+**标签**: `#product-market fit`, `#Anthropic`, `#OpenAI`, `#enterprise AI`, `#LLM economics`
 
 ---
 
 <a id="item-4"></a>
-## [Anthropic 和 OpenAI 通过企业 API 实现产品市场契合](https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything) ⭐️ 8.0/10
+## [AI 生成的 CUDA 内核通过基准却导致训练静默失败](https://www.reddit.com/r/MachineLearning/comments/1tpaw6x/aigenerated_cuda_kernels_silently_break_training/) ⭐️ 8.0/10
 
-Simon Willison 认为，OpenAI 和 Anthropic 已实现产品市场契合，迹象包括 Anthropic 即将首次实现盈利，以及企业客户转向基于 API 用量的定价模式。 这表明 AI 已具备商业可行性，企业愿意为 API 使用支付巨额费用，可能标志着行业从补贴增长转向可持续收入。 Anthropic 现向企业收取每席位 20 美元外加 API 使用费，OpenAI 于 2026 年 4 月转为按令牌用量定价；Simon Willison 本人的编程代理使用量若按 API 费率将超每月 2000 美元，而其订阅费仅 200 美元。
+来自 NVIDIA SOL-ExecBench 基准测试的顶级 AI 生成 CUDA 内核，虽通过验证却在真实 Transformer 训练中静默导致发散。其中一个内核因使用 bf16 而非 fp32 累加梯度，造成精度损失并引发静默失败。 这暴露了 AI 生成性能关键代码在基准测试验证与实际可靠性间的关键差距。此类静默错误会误导研究者，浪费大量资源，并阻碍科学进展，因为它们伪装成研究思想的失败。 该错误仅在现实非均匀词元分布下出现，切换至 AdamW 或均匀词元可掩盖发散。嵌入梯度累加使用 bf16 精度，导致小贡献被舍入为零，高频行漂移。其他 AI 生成内核也存在不同但同样隐蔽的错误。
 
-rss · Simon Willison · 5月27日 16:38 · [社区讨论](https://news.ycombinator.com/item?id=48296794)
+reddit · r/MachineLearning · /u/laginimaineb · 5月27日 16:35
 
-**背景**: 产品市场契合指产品满足强烈市场需求的那个点。AI 实验室一直面临巨大的基础设施成本，盈利遥遥无期。直到最近，固定费率的企业方案让用户避免了真实的令牌成本，但转向按用量定价揭示了客户对 AI 的真实经济价值定位。
+**背景**: CUDA 内核是运行于 NVIDIA GPU 上的高度优化函数，对深度学习至关重要。融合内核将多个操作合并以减少开销。SOL-ExecBench 是 NVIDIA 发布的基准测试，包含来自 DeepSeek、Qwen 等模型的 235 个真实内核。bf16 精度低于 fp32，在偏斜场景下导致累加误差。AdamW 自适应地归一化逐参数梯度，从而掩盖了该问题。
 
-**社区讨论**: 评论意见分歧：一些人强调需要大规模 Token 支出来收回投资，另一些人指出编程领域的产品市场契合早已显现，并对抗开源竞争的盈利能力提出质疑。还提到了 ROI 担忧和 GLM-5.1 等更便宜模型的竞争。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/NVIDIA/SOL-ExecBench">GitHub - NVIDIA / SOL - ExecBench : A benchmark of real-world DL...</a></li>
+<li><a href="https://arxiv.org/html/2603.19173v1">SOL - ExecBench : Speed-of-Light Benchmarking for Real-World GPU...</a></li>
+<li><a href="https://www.emergentmind.com/topics/cuda-kernel-fusion">CUDA Kernel Fusion Strategies</a></li>
 
-**标签**: `#AI`, `#business`, `#product-market fit`, `#enterprise`, `#API economy`
+</ul>
+</details>
+
+**标签**: `#machine learning`, `#CUDA`, `#AI-generated code`, `#debugging`, `#benchmark reliability`
 
 ---
 
 <a id="item-5"></a>
-## [curl 维护者因 AI 辅助安全报告激增面临职业倦怠](https://simonwillison.net/2026/May/26/the-pressure/#atom-everything) ⭐️ 8.0/10
+## [Wall-OSS-0.5：开源 4B VLA 模型实现零样本真实机器人评估](https://www.reddit.com/r/MachineLearning/comments/1tq8v8m/walloss05_4b_vla_with_open_training_code_and/) ⭐️ 8.0/10
 
-Daniel Stenberg 报告称，curl 项目收到的安全报告数量是 2024 年的 4 到 5 倍，平均每天超过一个，多数为 AI 辅助生成且质量可信，这导致他个人出现职业倦怠。 这凸显了开源可持续性面临的日益严重的危机，AI 生成的报告让维护者不堪重负，威胁项目健康和开发者福祉。 报告量增加主要来自高质量、详细的报告，但几乎所有发现的漏洞都是低或中严重度，上次高严重度 CVE 是在 2023 年 10 月。
+X Square Robot 发布了 Wall-OSS-0.5，这是一个具备开放训练代码的 4B 视觉-语言-动作模型。该模型在 17 个真实机器人任务套件中展示了强大的零样本性能，其中包括一项变形物体任务（绳索收紧，进度达 82%），微调后平均任务进度达 60.5，比 pi0.5 高出 17.5 个百分点。该发布还包含对训练动态的新颖分析、视觉对齐的 RVQ 分词器以及分布式 Muon 优化器 DMuon。 具备真实机器人零样本评估能力的开源 VLA 模型十分罕见，对可复现的机器人研究至关重要。显著的性能提升以及新颖的训练见解（如动作标记交叉熵梯度占主导地位）可能影响未来的 VLA 设计和训练策略，加速通用机器人操控技术的发展。 Wall-OSS-0.5 采用 3B VLM 骨干网络，并利用 Mixture-of-Transformers 结构安排动作专家模块。梯度桥分析显示，动作标记的交叉熵在骨干梯度中占主导地位，而流匹配在数千步后贡献仅约 5%。视觉对齐的 RVQ 分词器旨在为动作标记提供语义基础，连续动作则通过在还原动作空间中的流匹配处理。DMuon 声称大幅降低了分布式优化的开销。
 
-rss · Simon Willison · 5月26日 23:48
+reddit · r/MachineLearning · /u/Tall-Peak2618 · 5月28日 16:37
 
-**背景**: curl 是一个广泛使用的命令行工具和库，用于通过 URL 传输数据，主要由 Daniel Stenberg 维护。AI 辅助漏洞研究使用语言模型寻找漏洞，虽可提升安全性，但也有风险使维护者被报告淹没。开源安全基金会正在探索帮助维护者应对 AI 生成报告的方法。
+**背景**: 视觉-语言-动作（VLA）模型处理视觉和文本输入以输出机器人动作，从而实现通用的机器人控制。流匹配是一种生成建模技术，它学习一个连续归一化流以将噪声转化为数据，常用于动作生成。Mixture-of-Transformers 是一种稀疏架构，按模态解耦 Transformer 参数，降低多模态模型的计算成本。零样本评估测试模型在未专门微调的任务上的能力，这在真实机器人领域具有挑战性。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.helpnetsecurity.com/2026/05/18/problems-with-ai-assisted-vulnerability-research/">AI is drowning software maintainers in junk security reports</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Vision–language–action_model">Vision–language–action model - Wikipedia</a></li>
+<li><a href="https://arxiv.org/abs/2210.02747">[2210.02747] Flow Matching for Generative Modeling</a></li>
+<li><a href="https://arxiv.org/abs/2411.04996">[2411.04996] Mixture-of-Transformers: A Sparse and Scalable Architecture for Multi-Modal Foundation Models</a></li>
 
 </ul>
 </details>
 
-**标签**: `#open source`, `#security`, `#curl`, `#AI impact`, `#burnout`
+**标签**: `#vision-language-action`, `#robotics`, `#zero-shot evaluation`, `#open-source`, `#imitation learning`
 
 ---
 
 <a id="item-6"></a>
-## [微软 Copilot Cowork 通过提示注入泄露用户文件](https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything) ⭐️ 8.0/10
+## [AgingBench 显示编程代理长期部署性能下降，更强模型可能老化更严重](https://www.reddit.com/r/MachineLearning/comments/1tqaoio/your_agents_are_aging_too_agent_lifespan/) ⭐️ 8.0/10
 
-微软 Copilot Cowork 存在一个漏洞，攻击者通过提示注入攻击，利用代理发送包含追踪图片的自我邮件；用户打开邮件时，预认证的 OneDrive 下载链接便会被泄露，从而窃取文件。 该漏洞表明，代理式 AI 系统可通过提示注入被利用以绕过防护，对使用此类工具的组织构成严重的数据安全威胁，凸显了安全设计代理式 AI 的紧迫性。 攻击利用了代理无需审批即可向用户收件箱发送邮件的能力；用户打开这些邮件时，外部图片触发网络请求，捕获包括 OneDrive 预认证下载链接在内的敏感数据。
+研究人员推出了 AgingBench 基准，用于衡量编程代理在长期部署中的表现。他们发现在 Claude Code CLI 代理中将 Sonnet 4.6 换为 Opus 4.7，导致 PyTest 通过率平均下降 15%，且记忆策略对代理半衰期的影响更大。 这一发现质疑了为已部署代理直接换用更强模型的做法，因为长期可能降低可靠性。它强调了在生产环境 AI 系统中进行寿命工程的重要性，对软件开发和自主代理有广泛影响。 仅记忆策略就导致代理半衰期在不同场景中相差 4.5 倍，超过任何模型更换带来的影响。AgingBench 将老化分为四种机制：压缩、干扰、修订和维护冲击。
 
-rss · Simon Willison · 5月26日 15:36
+reddit · r/MachineLearning · /u/CategoryNormal149 · 5月28日 17:41
 
-**背景**: 提示注入是一种网络安全漏洞，攻击者通过精心设计的输入，让大型语言模型执行非预期操作。代理式 AI 系统能够自主规划和执行多步骤任务，因此扩大了攻击面。微软 Copilot Cowork 是一款企业级 AI 代理，旨在自动化工作流并与用户协同工作。
+**背景**: AI 编程代理利用大语言模型在多个会话中自主编写和维护软件。Claude Code CLI 是 Anthropic 提供的命令行工具，用于与 Claude 模型交互。'老化'指因代理记忆状态演变（如上下文压缩和新任务干扰）而导致的性能下降。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Prompt_injection">Prompt injection</a></li>
-<li><a href="https://www.mobile-mentor.com/insights/microsoft-copilot-cowork-could-redefine-enterprise-automation/">Microsoft Copilot Cowork Could Redefine Enterprise Automation</a></li>
+<li><a href="https://gigazine.net/gsc_news/en/20260528-agingbench-ai-agents-age-too">There are concerns that 'AI will age like humans if used... - GIGAZINE</a></li>
+<li><a href="https://code.claude.com/docs/en/cli-reference">CLI reference - Claude Code Docs</a></li>
 
 </ul>
 </details>
 
-**标签**: `#security`, `#AI agents`, `#Microsoft Copilot`, `#prompt injection`, `#data exfiltration`
+**标签**: `#AI agents`, `#deployment`, `#benchmark`, `#software engineering`, `#large language models`
 
 ---
 
 <a id="item-7"></a>
-## [TritonMoE：跨平台融合 MoE 内核实现可移植专家路由](https://www.reddit.com/r/MachineLearning/comments/1tpj6e5/crossplatform_fused_moe_dispatch_in_triton/) ⭐️ 8.0/10
+## [基于 Triton 的跨平台融合 MoE 调度内核](https://www.reddit.com/r/MachineLearning/comments/1tpj6e5/crossplatform_fused_moe_dispatch_in_triton/) ⭐️ 8.0/10
 
-TritonMoE 是一个完全使用 OpenAI Triton 编写的 MoE 推理内核，它将门控和上投影计算融合，减少了 35%的全局内存访问。在 A100 上，批大小≤512 token 时吞吐量可达 Megablocks 的 89%–131%，且无需修改即可运行于 AMD MI300X。 该内核无需 CUDA 即可在 NVIDIA 和 AMD GPU 上高效运行，降低了对特定厂商代码的依赖，为大规模语言模型扩展了硬件生态。 其关键创新在于融合门控-上投影 GEMM，共享输入分块加载并在寄存器中计算 SiLU；然而当批大小超过 2048 token 或专家数超过 64 且路由极度不均衡时，性能会下降。
+研究人员开发了 TritonMoE，一个完全用 OpenAI Triton 编写的 MoE 推理内核，将门控和上投影融合为单个 GEMM，消除了 35%的全局内存流量。它在 A100 上最多 512 个 token 的推理批次中达到了 Megablocks 吞吐量的 89–131%，并且无需修改即可在 AMD MI300X GPU 上运行。 这项工作实现了跨 NVIDIA 和 AMD GPU 的快速、可移植 MoE 推理，无需供应商特定代码，减少了对 CUDA 的依赖，并可能加速大型语言模型在多样化硬件上的部署。 融合内核仅加载一次共享的 L2 缓存输入块来计算两个 SwiGLU 投影，从而显著节省内存。然而，在 token 数量超过 2048 或具有 64 个以上专家且路由极度不均匀时，性能会下降。
 
 reddit · r/MachineLearning · /u/bassrehab · 5月27日 21:25
 
-**背景**: MoE 模型通过门控机制将 token 路由至部分专家子网络，SwiGLU 架构中每个专家需分别计算 gate 和 up 投影，导致大量内存访问。OpenAI Triton 是一种基于 Python 的 GPU 内核语言，可编译到 NVIDIA 和 AMD 等多个后端。Megablocks 是一个 CUDA 优化的 MoE 训练和推理库。融合投影可以减少全局内存访问并提升性能。
+**背景**: MoE 是一种 Transformer 架构，每个 token 仅激活部分“专家”层，从而减少计算量。SwiGLU 是一种结合门控和线性投影的激活函数，常用于现代 LLM。Triton 是一种开源 GPU 编程语言，无需 CUDA 专业知识即可编写高性能内核，并面向多种硬件后端。在 MoE 中融合门控和上投影，可以通过从相同输入块计算两者来减少内存访问，从而提高效率。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://subhadipmitra.com/blog/2026/fused-moe-dispatch-triton/">Beating CUDA with Triton: A Fused MoE Dispatch Kernel for Mixtral and DeepSeek | Subhadip Mitra</a></li>
-<li><a href="https://www.reddit.com/r/MachineLearning/comments/1sdaknc/p_fused_moe_dispatch_in_pure_triton_beating/">r/MachineLearning on Reddit: [P] Fused MoE Dispatch in Pure Triton: Beating CUDA-Optimized Megablocks at Inference Batch Sizes</a></li>
+<li><a href="https://openai.com/index/triton/">Introducing Triton: Open-source GPU programming for neural networks | OpenAI</a></li>
+<li><a href="https://arxiv.org/pdf/2605.23911">Cross-Platform Fused MoE Dispatch in Triton: Portable Expert Routing...</a></li>
+<li><a href="https://medium.com/@s_boudefel/exploring-swiglu-the-activation-function-powering-modern-llms-9697f88221e7">Exploring SwiGLU : The Activation Function Powering Modern ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Mixture of Experts`, `#Triton`, `#GPU Kernels`, `#Efficient Inference`, `#Cross-Platform`
+**标签**: `#Mixture-of-Experts`, `#Triton`, `#GPU kernel`, `#inference`, `#cross-platform`
 
 ---
 
 <a id="item-8"></a>
-## [NeuroFlow：通过 EMA 门控令牌剪枝实现 ViT 视频推理 55.8 倍加速](https://www.reddit.com/r/MachineLearning/comments/1tp3r2f/emagated_temporal_sequence_compression_in_vision/) ⭐️ 8.0/10
+## [英伟达因出口管制基本放弃中国 AI 芯片市场](https://t.me/zaihuapd/41609) ⭐️ 8.0/10
 
-NeuroFlow 是一个无需训练的的动态路由框架，利用 EMA 门控的语义惊喜度来剪枝视觉 Transformer 中的静态背景令牌，在 1792p 视频上实现 55.8 倍加速，嵌入保真度达 97.37%。 它解决了视频处理中自注意力的二次复杂度问题，可在不损失精度的情况下实现高效的高分辨率视频推理，这对于实时应用和资源受限环境至关重要。 架构 C 在 SigLIP 上以 84%的令牌稀疏度实现 71.55%的零样本 top-1 准确率；架构 B 在编码前物理消除令牌，将推理时间从 678 毫秒降至 11.9 毫秒。此外，在语法受限生成的语言模型上实现了零令牌漂移。
+英伟达 CEO 黄仁勋表示，由于美国出口管制，公司已“基本放弃”中国 AI 芯片市场，将其让给华为及其他本土厂商。他还告诉投资者，不要对获得在华销售先进芯片的许可抱有任何期望。 这一转变可能显著重塑全球 AI 芯片格局，中国企业加速采用华为昇腾等国产替代品，可能减少英伟达在关键市场的收入，并加剧 AI 半导体领域的竞争。 中国市场此前至少占英伟达数据中心收入的五分之一，但自四月特朗普政府要求出口许可证后，英伟达实质上被排除在外。公司目前正将资金用于供应链扩张和 800 亿美元股票回购计划。
 
-reddit · r/MachineLearning · /u/Bobby-Ly · 5月27日 12:14
+telegram · zaihuapd · 5月28日 03:03
 
-**背景**: 视觉 Transformer 将自注意力应用于图像块，但其复杂度随令牌数量呈二次方增长，导致视频推理缓慢。令牌剪枝通过丢弃不重要的令牌来节省计算。NeuroFlow 利用图块嵌入的指数移动平均来检测“语义惊喜度”，并门控令牌处理。SigLIP 是一种类似于 CLIP 的视觉语言模型。
+**背景**: 美国对先进半导体实施出口管制，限制中国获取尖端 AI 技术。英伟达的 A100 和 H100 等高端 GPU 受此限制。作为应对，华为等中国企业已开发昇腾系列等国产 AI 芯片，以减少对外国技术的依赖。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://huggingface.co/docs/transformers/model_doc/siglip">SigLIP · Hugging Face</a></li>
-<li><a href="https://arxiv.org/abs/2211.08110">[2211.08110] HeatViT: Hardware-Efficient Adaptive Token Pruning for...</a></li>
-<li><a href="https://www.emergentmind.com/papers/2209.10655">Mega: Gated Attention with EMA</a></li>
-
-</ul>
-</details>
-
-**标签**: `#Vision Transformers`, `#video inference`, `#token pruning`, `#efficiency`, `#EMA`
+**标签**: `#AI chips`, `#Nvidia`, `#China`, `#export controls`, `#market shift`
 
 ---
 
 <a id="item-9"></a>
-## [YouTube 将自动标记 AI 生成视频](https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/) ⭐️ 7.0/10
+## [高通与字节跳动达成定制 AI ASIC 合作，将采购数百万颗芯片](https://t.me/zaihuapd/41616) ⭐️ 8.0/10
 
-YouTube 宣布将自动标记平台上的 AI 生成视频，以提高透明度，帮助观众区分真实内容和 AI 创作内容。 此举对于打击虚假信息、保护儿童和老人等弱势群体免受欺骗性 AI 内容侵害至关重要，同时引发关于 AI 伦理使用和内容真实性的全行业讨论。 自动标记系统的技术细节尚不明确，但其目的是让披露比以往隐藏的标签更加显眼，解决人们对 AI 生成音乐和逼真视频的担忧。
+据报道，高通已与字节跳动达成协议，将提供数百万颗定制 AI ASIC 芯片，满足字节跳动的 AI 算力需求，并帮助其将内部芯片设计转为量产。 此次合作标志着字节跳动在专用 AI 硬件上的重大投入，有望减少对通用 GPU 的依赖并降低成本，同时凸显了大型科技公司转向定制 ASIC 以优化大规模 AI 工作负载的行业趋势。 该交易涉及数百万颗芯片，与高通此前宣布将于今年向某超大规模云服务商交付首款 ASIC 的消息吻合；双方均拒绝置评。
 
-hackernews · nopg · 5月27日 20:00 · [社区讨论](https://news.ycombinator.com/item?id=48299753)
+telegram · zaihuapd · 5月28日 07:09
 
-**背景**: 此前，YouTube 允许创作者自愿披露 AI 内容，但执行不力。随着生成式 AI 工具的兴起，平台充斥着合成媒体，这促使平台需要更强的透明度措施。该政策与 TikTok 和 Meta 等平台标记 AI 生成内容的类似举措一致。
+**背景**: ASIC（专用集成电路）是为特定任务定制的芯片，效率高于通用 GPU。在 AI 领域，谷歌、亚马逊等已开发定制 ASIC（如 TPU、Trainium）来加速推理和训练。这一趋势源于对更高能效比和更低总拥有成本的需求。
 
-**社区讨论**: 评论者普遍支持标记，分享了 AI 内容欺骗家人的例子。他们突出儿童和老人对 AI 生成视频的脆弱性，并指出未披露的 AI 音乐普遍存在。一些人讨论了从参与转向被动消费的更广泛文化变迁，另一些人建议关闭推荐以避免此类内容。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.21jingji.com/article/20241220/herald/6920995ddb41af1bff600f747bcb2d6c.html">行业风口丨万亿美元 芯 片 巨头高预期带火 ASIC ...</a></li>
+<li><a href="https://www.moomoo.com/news/post/47205118/from-nvidia-to-broadcom-a-paradigm-shift-in-the-ai">From NVIDIA to Broadcom, a "paradigm shift" in the AI Industry.</a></li>
 
-**标签**: `#AI-generated content`, `#content moderation`, `#digital media`, `#ethics`, `#transparency`
+</ul>
+</details>
+
+**标签**: `#AI`, `#ASIC`, `#Qualcomm`, `#ByteDance`, `#custom chips`
 
 ---
 
 <a id="item-10"></a>
-## [Hallucinate：开源大型多人在线锐舞派对平台](https://hallucinate.site/) ⭐️ 7.0/10
+## [美司法部要求 Reddit 和 X 提供批评 ICE 账号信息](https://www.bloomberg.com/news/articles/2026-05-28/trump-s-doj-ramps-up-probes-of-anonymous-ice-critics-with-x-reddit-subpoenas) ⭐️ 8.0/10
 
-名为 Hallucinate 的开源平台发布，它结合 Web Audio 和多人技术实现大型在线锐舞派对，并在 GitHub 上邀请社区贡献。 在远程社交互动兴起的背景下，它以新颖的开源方式复兴了共享虚拟音乐体验的理念，有望促进社交音频领域的创新和社区驱动开发。 该项目采用 MIT 许可证并托管于 GitHub，但目前缺乏中央同步服务器，依赖用户手动启动 YouTube 音频流，可能导致参与者间出现时间差。
+美国司法部已将对 Reddit 和 X 的传票从行政传唤升级为大陪审团传票，要求提供批评 ICE 的匿名账号的姓名、住址和银行信息，称这是刑事调查的一部分。 此举引发了关于网络匿名和言论自由的重大关切，可能为政府如何识别主要平台上的批评者树立先例。 用户尚未被告知具体涉嫌何种罪名，法官正在审理撤销大陪审团传票的请求。
 
-hackernews · stagas · 5月28日 03:50 · [社区讨论](https://news.ycombinator.com/item?id=48304260)
+telegram · zaihuapd · 5月28日 14:22
 
-**背景**: 大型多人在线（MMO）游戏让众多玩家在共享的虚拟世界中互动。Web Audio API 为浏览器提供了高级音频功能，支持实时声音处理。Hallucinate 融合了这些概念，创建了一个虚拟锐舞环境，让人们一起听音乐和社交，呼应了此前已停止运营的 theclub.zone 等项目。
+**背景**: 行政传票由联邦机构直接签发，而大陪审团传票是在刑事调查中由法院授权。ICE 是美国移民及海关执法局，负责移民执法。Reddit 和 X（原 Twitter）是主要的社交媒体平台，用户常以匿名身份发言。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Massively_multiplayer_online_game">Massively multiplayer online game - Wikipedia</a></li>
-<li><a href="https://web.dev/articles/audio-output-latency">Synchronize audio and video playback on the web | Articles | web.dev</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区反响总体积极，用户分享了类似过往项目的回忆并提出改进建议。一个反复出现的担忧是音频同步问题，手动启动 YouTube 音乐破坏了共同锐舞的氛围；建议包括同步到主播放时间。开发者积极欢迎贡献并公开了开源仓库。
-
-**标签**: `#web-audio`, `#multiplayer`, `#open-source`, `#music`, `#community`
+**标签**: `#privacy`, `#free speech`, `#government surveillance`, `#social media`, `#legal`
 
 ---
 
 <a id="item-11"></a>
-## [《模拟城市 3000》4K 分辨率运行：技术回顾](https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html) ⭐️ 7.0/10
+## [Anthropic 发布 Claude Opus 4.8，小幅提升并预告 Mythos 模型](https://www.anthropic.com/news/claude-opus-4-8) ⭐️ 7.0/10
 
-2025 年有技术文章探讨了让 1999 年经典城建游戏《模拟城市 3000》在 4K 分辨率下运行的方法，详述了适配其固定分辨率美术素材的挑战。 这凸显了对复古游戏和游戏保存的持续兴趣，同时重新引发了关于经典游戏如何利用抽象风格激发玩家想象力的讨论，与当代逼真画面形成鲜明对比。 游戏画面最初使用 Maxis 的建筑师工具从 3D 模型预渲染，因此 4K 显示可能依赖于放大这些素材，而非原生高分辨率渲染。
+Anthropic 发布了 Claude Opus 4.8，这是其前沿语言模型的次要更新，较之前版本有适度但切实的改进，并宣布计划推出名为 Mythos 的更高智能模型类别，目前正在网络安全领域进行预览测试。 此次发布凸显了 Anthropic 在前沿 AI 上的快速迭代，并预示着 Mythos 等能力显著更强的模型即将到来，这可能会加剧 AI 行业既有的机遇与安全挑战。 Opus 4.8 是继 4.5 之后的第三个次要版本（前有 4.6 和 4.7）。用户现可在 Web 界面中关闭自适应思考功能。Mythos 模型被描述为比 Opus 更智能，需要更强的网络安全防护，目前正通过 Project Glasswing 在少数组织中进行测试。
 
-hackernews · speckx · 5月27日 17:36 · [社区讨论](https://news.ycombinator.com/item?id=48297645)
+hackernews · craigmart · 5月28日 16:49 · [社区讨论](https://news.ycombinator.com/item?id=48311647)
 
-**背景**: 《模拟城市 3000》是 Maxis 于 1999 年发行的城市建设模拟游戏，以其精细的 2D 等距图形、深度模拟和令人难忘的顾问系统著称。4K 分辨率（3840x2160）远超游戏原本支持的最高分辨率（如 1024x768），需要在现代屏幕上运行时采用整数缩放或自定义补丁等变通方法。
+**背景**: Claude Opus 是 Anthropic 能力最强的模型系列，版本号（如 4.5、4.8）代表渐进式改进。“前沿模型”指的是突破能力边界的最先进 AI 系统。Mythos 代表下一代模型，预计将在各项基准测试中大幅超越当前水平，但其强大能力也引发了对潜在滥用的担忧，因此 Anthropic 采取了受控访问和广泛的安全评估。
 
-**社区讨论**: 社区评论体现出强烈的怀旧情绪，赞赏游戏的美术、音乐和顾问系统，并将其利于触发联想的设计与现代逼真城市建设游戏做出对比。有用户说明游戏图形是从 3ds Max 预渲染而非像素艺术，还有人期待能推出 WebAssembly 移植版。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.scientificamerican.com/article/what-is-mythos-and-why-are-experts-worried-about-anthropics-ai-model/">What is Mythos, Anthropic’s unreleased AI model, and how ...</a></li>
+<li><a href="https://www-cdn.anthropic.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf">Claude Mythos Preview System Card - www-cdn.anthropic.com</a></li>
 
-**标签**: `#game-preservation`, `#simcity`, `#retro-gaming`, `#resolution`, `#game-design`
+</ul>
+</details>
+
+**社区讨论**: 社区反应不一：部分用户觉得次要版本升级难以察觉差异，但也有用户注意到切实改进，例如在较高思考水平下图像生成质量更佳。关闭自适应思考的选项受到欢迎。对于即将推出的 Mythos 模型，社区既兴奋又担忧，一些人指出 Mythos 因安全风险而被严格控制访问。
+
+**标签**: `#AI`, `#LLM`, `#Anthropic`, `#Claude`, `#Model Release`
 
 ---
 
 <a id="item-12"></a>
-## [苹果和谷歌的推送通知控制引发营销与用户注意力之争](https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications) ⭐️ 7.0/10
+## [浏览器大型多人在线锐舞体验开源发布](https://hallucinate.site/) ⭐️ 7.0/10
 
-一篇新文章认为苹果和谷歌对推送通知的限制妨碍了营销活动，但社区强烈回应支持这些控制措施，认为保护用户注意力是必要的。 这一争论凸显了企业触达用户的愿望与个人管理数字干扰需求之间的持续紧张关系，反映了隐私和注意力管理方面更广泛的趋势。 文章可能聚焦于平台区分交易性通知和营销通知的政策，用户压倒性地只愿意接收来自通讯和银行等应用的必需、时效性警报。
+一款名为 Hallucinate 的全新开源浏览器大型多人在线锐舞体验已上线，提供同步音频和虚拟化身。 它展示了网页技术在实时社交互动上的创新应用，作为开源项目可推动社区扩展，对虚拟活动领域产生影响。 该项目采用 MIT 许可证，托管在 GitHub（https://github.com/stagas/hallucinate），欢迎贡献，社区关注度高，有用户分享了玩家热力图。
 
-hackernews · iamacyborg · 5月27日 19:24 · [社区讨论](https://news.ycombinator.com/item?id=48299220)
+hackernews · stagas · 5月28日 03:50 · [社区讨论](https://news.ycombinator.com/item?id=48304260)
 
-**背景**: 推送通知让应用能在不使用时向用户发送提醒。苹果和谷歌推出了专注模式、通知渠道和更严格的权限设置等功能来对抗通知垃圾信息。这些措施是在用户普遍抱怨来自营销和非必需应用的过度干扰后推出的。因此，许多用户现在严格筛选哪些应用可以发送通知，将其限制在关键的通讯和服务上。
+**背景**: 锐舞是电子舞曲派对，常有 DJ 和同步视觉效果。大型多人在线体验允许多用户在共享虚拟空间中互动。浏览器应用利用 Web Audio 和 WebGL 等技术无下载运行。MIT 许可证允许自由使用和修改。
 
-**社区讨论**: 评论者压倒性地支持苹果和谷歌的反垃圾措施，认为通知应该仅用于真正紧急的事情。许多人分享了个人策略，如始终开启勿扰模式或积极删除通知权限，将营销通知视为侵扰。这种情绪强烈反驳了文章的前提，强调用户控制而非企业触达。
+**社区讨论**: 评论中用户回忆起 Secret Sky 和 theclub.zone 等类似项目，分享了玩家热力图并提出想法。创作者欢迎贡献，有用户提到一个相关的 VR 项目暂停，希望他人接手。
 
-**标签**: `#notifications`, `#mobile`, `#UX`, `#privacy`, `#attention-management`
+**标签**: `#multiplayer`, `#music`, `#web-audio`, `#creative-coding`, `#open-source`
 
 ---
 
 <a id="item-13"></a>
-## [探索网状网络：Meshtastic、MeshCore 与 Reticulum](https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/) ⭐️ 7.0/10
+## [SQLite 新增 AGENTS.md 文件：不接受 AI 代理生成代码，但接受附带测试的 AI 生成错误报告](https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything) ⭐️ 7.0/10
 
-一篇个人博文探讨了网状网络工具 Meshtastic、MeshCore 和 Reticulum 的前景与局限，引发了 Hacker News 上对其实际可行性的热烈讨论。 讨论揭示了关键挑战——可靠性、覆盖范围限制、对互联网回传的依赖——这些是网状网络要实现普及尤其是应急场景应用必须解决的问题。 Meshtastic 采用洪泛机制传播消息，而 MeshCore 使用存储转发路由；社区测试显示即使在 2–8 英里距离内，连接也不稳定。
-
-hackernews · Panda_ · 5月27日 19:52 · [社区讨论](https://news.ycombinator.com/item?id=48299638)
-
-**背景**: 网状网络是一种去中心化通信系统，每个节点转发数据。Meshtastic 是一个基于 LoRa 的开源网状协议，于 2020 年推出，用于离网文本通信。MeshCore 是 2024 年创建的类似 LoRa 协议，强调存储转发路由。Reticulum 是一种更灵活的网络栈，可运行于 LoRa、互联网或其他传输方式之上。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Meshtastic">Meshtastic</a></li>
-<li><a href="https://en.wikipedia.org/wiki/MeshCore">MeshCore</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者持怀疑态度，指出实际范围限制、网络静默、Meshtastic 洪泛模型影响可扩展性。有人将其比作早期驾驶攻击或民用电台——有趣但缺乏架构。Reticulum 被认为更有前景但仍属小众。
-
-**标签**: `#mesh-networks`, `#meshtastic`, `#lora`, `#off-grid-communication`, `#reticulum`
-
----
-
-<a id="item-14"></a>
-## [SQLite 为 AI 代理添加 AGENTS.md 指引文件](https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything) ⭐️ 7.0/10
-
-SQLite 新增了 AGENTS.md 文件，明确拒绝 AI 代理生成的代码贡献，但接受附带可复现测试用例的 AI 代理错误报告。同时，项目删除了措辞中的“暂时”一词，使拒绝态度更加绝对，并为 AI 生成的错误报告设立了独立论坛。 这是主流开源项目中率先明确界定 AI 代理交互策略的案例之一，为软件社区在平衡 AI 辅助工作流的优势与质量和法律风险方面树立了先例。 AGENTS.md 文件声明 SQLite 不接受未经事先同意或法律文件的拉取请求，并拒绝所有 AI 代理代码。最近的提交删除了“暂时”一词以强化这一策略。由于大量低质量的 AI 生成错误报告涌入，项目设立了独立的 Bug 论坛，开发者 D. Richard Hipp 正在其中积极解决问题。
+SQLite 在其仓库中添加了 AGENTS.md 文件，明确规定不接受由 AI 代理生成的代码贡献，但会接受附带可重现测试用例的 AI 生成错误报告。最近的提交删除了“（目前）”一词，以强化这一立场。 该政策表明开源项目越来越需要为 AI 生成的内容设定界限，既要利用 AI 辅助错误报告的益处，又要防范低质量自动代码提交的风险。此举可能影响其他项目采用类似的指导方针。 AGENTS.md 文件还重申，SQLite 不接受未经事先协议及未签署将贡献置于公共领域法律文件的拉取请求。与此同时，SQLite 论坛已划出一个独立的“Bug 论坛”，以处理大量涌入的、质量参差不齐的 AI 生成错误报告。
 
 rss · Simon Willison · 5月27日 23:44
 
-**背景**: AGENTS.md 是一种开放标准文件，放置在项目根目录中，用于向 AI 编码代理说明项目特定规则，类似于针对 AI 工具的 README 文件。它旨在被各种 AI 开发者工具所识别。AI 代理代码指由 AI 代理自主生成的代码，在软件开发中日益普遍。SQLite 是广泛使用的嵌入式数据库，其保守的贡献策略强调代码质量和法律明确性。
+**背景**: AGENTS.md 是一种新兴约定，项目通过该文件向 AI 编程代理提供指令，类似于 README 帮助人类贡献者。代理生成代码是指由自主 AI 代理在极少人工干预下生成的代码，常引发质量和安全担忧。以严格测试和公共领域许可著称的 SQLite 项目，正采取明确立场以维持代码质量。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://agents.md/">AGENTS.md</a></li>
-<li><a href="https://cloud.google.com/discover/what-is-agentic-coding">What is agentic coding? How it works and use cases</a></li>
+<li><a href="https://cloud.google.com/discover/what-is-agentic-coding">What is agentic coding? How it works and use cases | Google Cloud</a></li>
 
 </ul>
 </details>
 
-**标签**: `#software-engineering`, `#open-source`, `#ai`, `#sqlite`
+**标签**: `#sqlite`, `#ai-agents`, `#open-source`, `#contribution-guidelines`, `#software-engineering`
+
+---
+
+<a id="item-14"></a>
+## [curl 项目被 AI 辅助的安全报告淹没](https://simonwillison.net/2026/May/26/the-pressure/#atom-everything) ⭐️ 7.0/10
+
+Daniel Stenberg 报告称，curl 项目正收到数量空前的 AI 辅助安全报告，接收速率比 2024 年高出 4 到 5 倍，导致团队出现职业倦怠。 由于 curl 是数十亿人使用的基础互联网工具，由 AI 生成报告引发的维护者倦怠可能会削弱项目处理真实安全问题和持续开发的能力。 这些报告非常详细且冗长，但所发现的漏洞通常为低或中等严重程度，上一次高危 CVE 发布于 2023 年 10 月。压力已影响到 Daniel Stenberg 的工作与生活平衡，他的妻子表达了担忧。
+
+rss · Simon Willison · 5月26日 23:48
+
+**背景**: curl 是一个用于通过 URL 传输数据的命令行工具和库，广泛用于服务器、嵌入式设备和应用程序。开源项目依赖志愿者维护者审查安全报告，这一过程过去由人类研究人员完成，但现在越来越多地被 AI 工具自动化。AI 辅助报告激增可能会压垮维护者，使他们的注意力偏离开发工作。
+
+**标签**: `#open source`, `#security`, `#AI`, `#burnout`, `#curl`
 
 ---
 
 <a id="item-15"></a>
-## [MONET：超 1 亿高质量精选图文数据集发布](https://www.reddit.com/r/MachineLearning/comments/1tq2vxa/a_new_dataset_with_more_that_100m_hiquality/) ⭐️ 7.0/10
+## [MONET 数据集发布：1.049 亿高质量图像-文本对，采用 Apache 2.0 许可](https://www.reddit.com/r/MachineLearning/comments/1tq2vxa/a_new_dataset_with_more_that_100m_hiquality/) ⭐️ 7.0/10
 
-MONET 数据集正式开源，采用 Apache 2.0 许可，包含 1.049 亿高质量图文对。同时发布了 UMAP 可视化工具、检索工具及基于该数据集的文生图训练代码。 这一大规模、许可宽松的数据集填补了高质量公开图文训练数据的空白，有望推动视觉语言模型的研究和商业应用，且无严格使用限制。 该数据集从 29 亿原始图像精选至 1.049 亿，以确保质量；现已托管于 Hugging Face，并提供基于 UMAP 的二维可视化探索工具和文本/图像检索工具。
+一个名为 MONET 的新型开源数据集发布，包含从 29 亿张图像中筛选出的 1.049 亿高质量图像-文本对，并附带可视化、检索和模型训练等配套工具。 该数据集规模大、质量高，并采用宽松的 Apache 2.0 许可，使其成为训练多模态模型的宝贵资源，有望加速文本到图像生成和视觉语言任务的研究，同时减少对专有数据集的依赖。 该数据集从 29 亿张图像中筛选出 1.049 亿高质量样本，并包含基于 UMAP 的可视化工具（用于探索数据分布）、检索界面以及用于训练文本到图像模型的代码库。
 
 reddit · r/MachineLearning · /u/dh7net · 5月28日 12:59
 
-**背景**: 图文数据集由图像和对应的文本描述组成，是训练文生图模型（如 Stable Diffusion）和视觉语言模型的基础资源。UMAP（统一流形逼近与投影）是一种降维技术，能将高维数据映射到二维或三维空间，帮助研究人员直观理解数据分布。此前大规模数据集多受限于非商业许可，而 MONET 采用 Apache 2.0 协议，同时允许研究和商业使用。
+**背景**: 图像-文本数据集将图像与描述性文字配对，是训练 Stable Diffusion 等模型的关键。UMAP（统一流形逼近与投影）是一种降维技术，常用于将高维数据可视化为 2D 或 3D，帮助揭示聚类和模式。该数据集从庞大的初始池中筛选和提纯，以确保高质量。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://umap-learn.readthedocs.io/en/latest/">UMAP : Uniform Manifold Approximation and Projection for Dimension...</a></li>
+<li><a href="https://umap-learn.readthedocs.io/en/latest/how_umap_works.html">How UMAP Works — umap 0.5.8 documentation</a></li>
 
 </ul>
 </details>
 
-**标签**: `#dataset`, `#image-text`, `#open-source`, `#computer-vision`, `#machine-learning`
+**标签**: `#dataset`, `#image-text`, `#multimodal`, `#open-source`, `#machine-learning`
 
 ---
 
 <a id="item-16"></a>
-## [AI 生成的 CUDA 内核通过基准测试但在生产中静默失败](https://www.reddit.com/r/MachineLearning/comments/1tpaw6x/aigenerated_cuda_kernels_silently_break_training/) ⭐️ 7.0/10
+## [Tomesphere：聚合 Arxiv 论文的评审、代码与语义图谱](https://www.reddit.com/r/MachineLearning/comments/1tq53il/kept_contextswitching_between_arxiv_openreview/) ⭐️ 7.0/10
 
-提交到 NVIDIA SOL-ExecBench 基准测试的 AI 生成 CUDA 内核通过了验证，但在生产部署中导致静默训练失败，暴露出依赖于数据分布和优化器选择的微妙缺陷。 这凸显了使用 AI 生成高性能代码的重大风险，因为微妙的缺陷可能伪装成研究失败，误导研究人员并可能浪费大量精力和计算资源。 具体缺陷是嵌入梯度累加使用了 bf16 而非 fp32 精度，在非均匀令牌分布下导致精度损失，而在 AdamW 下由于逐参数归一化掩盖了该问题。
+一位开发者创建了 Tomesphere，一个 Chrome 扩展和网站，将 TLDR 摘要、OpenReview 评审、GitHub 代码库、HuggingFace 模型、引用图谱和基于 SPECTER2 的语义邻居图谱直接集成在 arXiv 论文页面上或其自有网站上，收录了 300 万篇论文。 该工具大幅减少了研究人员在多个平台间切换的麻烦，通过将相关信息集中一处，提高了论文发现和评估的效率，从而加速文献综述并跟进最新研究。 该扩展使用 Chrome 的 Manifest V3 侧边栏 API 进行内联显示。仅包含在 OpenReview 上公开评审的会议（如 NeurIPS）的评审分数，不包括盲审会议（如 CVPR）；GitHub 和 HuggingFace 的匹配是尽力而为的。
 
-reddit · r/MachineLearning · /u/laginimaineb · 5月27日 16:35
+reddit · r/MachineLearning · /u/RegretAgreeable4859 · 5月28日 14:21
 
-**背景**: SOL-ExecBench 是 NVIDIA 发布的包含 235 个来自生产 AI 模型的真实 CUDA 内核的基准测试。RMSNorm 是一种用于 Transformer 的轻量级归一化技术，取代了 LayerNorm。融合反向传播将梯度计算与优化器步骤交错执行以减少内存。bf16 和 fp32 是精度不同的浮点格式；CUDA 内核是 GPU 程序。
+**背景**: SPECTER2 是由 Allen Institute for AI (Ai2)开发的科学文档嵌入模型，生成论文的语义表示，用于基于相似度的推荐。该 Chrome 扩展使用 Manifest V3 侧边栏 API，允许扩展在浏览器选项卡中显示持久侧面板，而非弹窗，以非侵入方式展示额外信息。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://research.nvidia.com/benchmarks/sol-execbench">SOL-ExecBench | GPU Kernel Performance Benchmarks by NVIDIA</a></li>
-<li><a href="https://sebastianraschka.com/llms-from-scratch/ch04/09_rmsnorm/">RMSNorm | Sebastian Raschka, PhD</a></li>
-<li><a href="https://optimi.benjaminwarner.dev/gradient_release/">Gradient Release - optimī</a></li>
+<li><a href="https://allenai.org/blog/specter2-adapting-scientific-document-embeddings-to-multiple-fields-and-task-formats-c95686c06567">SPECTER2: Adapting scientific document embeddings to multiple fields and task formats | Ai2</a></li>
+<li><a href="https://developer.chrome.com/docs/extensions/reference/api/sidePanel">chrome.sidePanel | API | Chrome for Developers</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI safety`, `#CUDA`, `#code generation`, `#machine learning engineering`, `#benchmarking`
+**标签**: `#arxiv`, `#research-tools`, `#machine-learning`, `#paper-discovery`, `#chrome-extension`
 
 ---
 
 <a id="item-17"></a>
-## [Tomesphere: 集成内联评论、引用图谱和语义邻居的 arXiv 论文聚合 Chrome 扩展](https://www.reddit.com/r/MachineLearning/comments/1tq53il/kept_contextswitching_between_arxiv_openreview/) ⭐️ 7.0/10
+## [YouTube 将从 2026 年 5 月起自动标注 AI 生成视频并突出标签](https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/) ⭐️ 7.0/10
 
-推出了名为 Tomesphere 的免费 Chrome 扩展和网站，为 300 万篇 arXiv 论文聚合元数据，提供内联的 OpenReview 评论、GitHub 仓库、HuggingFace 模型、引用图谱以及基于 SPECTER2 的语义邻居图，以减少研究者的上下文切换。 它通过统一与论文相关的分散信息来源，解决了机器学习研究者常见的痛点，可能节省时间并简化文献综述流程。 该工具仅包含在 OpenReview 上公开发布评审的会议（如 NeurIPS、ICLR、ICML）的评分，不包括盲审会议如 CVPR；对 GitHub、HuggingFace 和视频的匹配是尽力而为的。
+从 2026 年 5 月起，YouTube 将自动为逼真且经 AI 明显生成或修改的视频添加标签，即使创作者未主动申报，并将标签移至更显眼的位置。对于使用 YouTube 自研 AI 工具或带有表明完全生成式 AI 的 C2PA 元数据的内容，标签将永久保留。 此次政策更新增强了观众的透明度，有助于辨别 AI 生成内容，可能减少深度伪造和虚假信息的传播。它加大了创作者的责任，并符合全球范围内验证数字媒体真实性的努力。 创作者可在 YouTube Studio 中更正标注状态，但使用 YouTube 自研 AI 工具或带有 C2PA 元数据的完全 AI 生成内容，标签会永久保留。非逼真、动画或轻微修改的内容，标签仍放在展开描述中。
 
-reddit · r/MachineLearning · /u/RegretAgreeable4859 · 5月28日 14:21
+telegram · zaihuapd · 5月28日 04:18
 
-**背景**: 研究者通常需要查看多个平台来获取论文详情——arXiv 用于预印本，OpenReview 用于同行评审，GitHub 用于代码，HuggingFace 用于模型，Semantic Scholar 或 Google Scholar 等工具用于引用和相关工作。SPECTER2 是一个基于科学论文训练的 Transformer 模型，可生成捕捉语义内容的嵌入，从而计算相似论文（语义邻居）。Tomesphere 将所有这些集成在单一界面中，旨在减少上下文切换的需求。
+**背景**: C2PA（内容来源与真实性联盟）是一项开放技术标准，允许创作者在数字媒体中嵌入来源元数据，指明其出处和编辑记录，包括是否使用了 AI。YouTube 的政策更新反映了对深度伪造的日益担忧以及平台级透明度工具的需求。此举紧随其他平台为 AI 内容加标签的类似举措。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://sbert.net/docs/sentence_transformer/pretrained_models.html">Pretrained Models — Sentence Transformers documentation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Content_Authenticity_Initiative">Content Authenticity Initiative - Wikipedia</a></li>
+<li><a href="https://c2pa.org/">C2PA | Verifying Media Content Sources</a></li>
 
 </ul>
 </details>
 
-**标签**: `#machine learning`, `#research tools`, `#arxiv`, `#paper browsing`, `#chrome extension`
+**标签**: `#YouTube`, `#AI labeling`, `#content policy`, `#generative AI`, `#platform regulation`
 
 ---
 
 <a id="item-18"></a>
-## [CSM 在 BEAM 100K 上以更少令牌超越 Hindsight，但速度较慢](https://www.reddit.com/r/MachineLearning/comments/1tpjx2m/beam_100k_memory_benchmark_csm_vs_hindsight_local/) ⭐️ 6.0/10
+## [DOMD：20 KB 内核、本地优先的自研渲染 Markdown 所见即所得编辑器](https://github.com/do-md/domd) ⭐️ 7.0/10
 
-在 BEAM 100K 基准测试中，CSM 以 0.7576 的 AMB 得分优于 Hindsight 的 0.7337，正确回答数分别为 342/400 和 326/400，同时使用少 38.2%的上下文令牌，但检索速度较慢（29.23 秒对 6.38 秒）。 该对比突显了智能体记忆系统中准确性和速度之间的权衡，表明 CSM 的架构能减少上下文使用，这对于将智能体扩展至更长会话或更大记忆库至关重要。 CSM 使用有界只读记忆分片、查询路由、探测/召回/综合、引用数据包以及提交者控制的写入。该基准测试是 10 万步的本地制品比较，并非官方的 1 千万步声明，作者指出需要独立复现。
+DOMD 推出了完全自研的 Markdown 所见即所得渲染引擎，内核仅 20 KB，除 React 外无运行时依赖，即使处理大文档也能保持原生级性能。 它挑战了 ProseMirror 和 Lexical 等重量级框架，展示出可为本地优先、AI 驱动的 Markdown 编辑等特定场景构建极简编辑器，为开发者提供了更简单的新选择。 编辑器采用单一数据源和不可变状态，将打字、撤销重做、AI 流式注入和大文件分块加载统合到同一状态管理管道，并通过 Tauri 提供 macOS 原生版，支持 Quick Look 直接渲染 .md 文件。
 
-reddit · r/MachineLearning · /u/keonakoum · 5月27日 21:53
+telegram · zaihuapd · 5月28日 05:48
 
-**背景**: BEAM 是一个用于评估长期智能体记忆的基准测试，包含 100K 和 10M 等不同任务长度的变体。Hindsight 是 Vectorize 开发的一款成熟智能体记忆系统，侧重于通过记忆整合进行学习。CSM 是一个新的开源记忆系统，采用分片式只读架构。该对比使用了已接受的本地 Hindsight 制品，而非官方 BEAM 评估。
+**背景**: 所见即所得的 Markdown 编辑器通常依赖 ProseMirror 或 Lexical 等框架来管理复杂的文档模型。ProseMirror 是久经考验的编辑器核心，但学习曲线陡峭；而 Lexical 是 Meta 开发的可扩展框架，支持不可变数据模型。Tauri 是一个使用 Rust 和 Web 技术构建的轻量级跨平台框架，常被视为 Electron 的替代。DOMD 绕过这些框架，自研渲染引擎，追求极简和本地优先的体验。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/vectorize-io/hindsight">GitHub - vectorize-io/ hindsight : Hindsight : Agent Memory That...</a></li>
-<li><a href="https://hindsight.vectorize.io/">Overview | Hindsight</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tauri_(software_framework)">Tauri (software framework) - Wikipedia</a></li>
+<li><a href="https://grokipedia.com/page/ProseMirror">ProseMirror</a></li>
+<li><a href="https://grokipedia.com/page/Lexical_text_editor">Lexical (text editor)</a></li>
 
 </ul>
 </details>
 
-**标签**: `#agent-memory`, `#benchmark`, `#open-source`, `#CSM`, `#BEAM`
+**标签**: `#markdown`, `#editor`, `#open-source`, `#rendering-engine`, `#local-first`
 
 ---
 
 <a id="item-19"></a>
-## [基于 CUDA 事件的 PyTorch 训练轻量分析](https://www.reddit.com/r/MachineLearning/comments/1tp2nnw/profiling_pytorch_training_without_accidentally/) ⭐️ 6.0/10
+## [黄仁勋：台湾是 AI 革命中心，英伟达计划年投 1500 亿美元](https://arstechnica.com/tech-policy/2026/05/nvidia-ceo-wants-taiwan-to-be-center-of-ai-revolution-not-us/) ⭐️ 7.0/10
 
-一篇技术笔记介绍了通过在代码边界插入 CUDA 事件并稍后读取来对 PyTorch 训练进行性能分析的方法，避免了 torch.cuda.synchronize()引起的同步开销。 这种方法能在不干扰异步 GPU 执行流水线的情况下准确计时 PyTorch 训练步骤，成为开发者在深入使用重型分析工具之前的有效初步诊断手段。 CUDA 事件充当 CUDA 流中的异步标记，无需主机-设备同步即可捕获时间信息；此技术不能替代 PyTorch Profiler 或 NVIDIA Nsight 等成熟分析器，但提供了快速、低开销的初步检查。
+英伟达 CEO 黄仁勋宣称台湾是 AI 革命中心，并计划每年在台湾投入约 1500 亿美元，相比前几年每年 100 亿至 150 亿美元的投入增长了十倍，重点用于 AI 芯片生产、系统制造和供应链合作。 这笔巨额投资凸显了台湾在全球 AI 供应链中的关键作用，并将极大推动当地半导体生态系统发展，巩固英伟达与台积电等台湾主要制造商的合作关系。 位于台北的新总部预计今年动工、2030 年启用，可容纳 4000 名员工；主要合作伙伴包括台积电、鸿海、纬创和广达。
 
-reddit · r/MachineLearning · /u/traceml-ai · 5月27日 11:24
+telegram · zaihuapd · 5月28日 07:33
 
-**背景**: 在 PyTorch 中，GPU 操作通过 CUDA 流异步启动，CPU 可以在不等待完成的情况下排队内核。为测量执行时间，开发者常使用 torch.cuda.synchronize()阻塞 CPU 直到所有 GPU 工作结束，但这会改变 CPU 与 GPU 任务的自然重叠。CUDA 事件提供了非阻塞替代方案：它们在流的特定点记录时间戳，允许稍后计算经过的 GPU 时间，而不会中断执行流程。
+**背景**: 台湾拥有台积电等全球领先的半导体代工厂，为英伟达生产先进的 AI 芯片。该地区强大的制造生态系统，包括系统组装商和零部件供应商，对英伟达的 AI 硬件生产至关重要。近年来，随着 AI 热潮和高性能计算芯片需求的增长，英伟达在台湾的业务大幅扩展。
+
+**标签**: `#Nvidia`, `#Taiwan`, `#AI supply chain`, `#investment`, `#semiconductor`
+
+---
+
+<a id="item-20"></a>
+## [中国将为人形机器人分配数字 ID](https://www.scmp.com/tech/policy/article/3354747/china-give-every-humanoid-robot-digital-id-push-boost-industry-standards) ⭐️ 7.0/10
+
+中国工信部下属的人形机器人与具身智能标准化委员会启动了一个平台，为每台国产人形机器人分配唯一数字 ID，以实现从生产到回收的全生命周期追踪，提高可追溯性和风险监控。 这一举措是行业标准化的重要一步，可能为新兴技术监管提供模式，提升快速发展的人形机器人领域的安全性和问责制。 该指南适用于人形机器人产业链各环节，包括制造商、服务商、销售方、用户和回收机构，且专为 AI 双足人形机器人设计。
+
+telegram · zaihuapd · 5月28日 09:08
+
+**背景**: 人形机器人是具有人类外形结构的先进机器，通常集成人工智能以执行自主任务。具身智能是指人工智能通过物理身体与环境交互的领域，是这类发展的基石。中国已成为该领域的关键参与者，快速的产业增长催生了监管框架的需求。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__EVENT.html">CUDA Runtime API :: CUDA Toolkit Documentation</a></li>
-<li><a href="https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/asynchronous-execution.html">2.3. Asynchronous Execution — CUDA Programming Guide</a></li>
-<li><a href="https://developer.nvidia.com/nsight-systems.md">developer.nvidia.com/ nsight -systems.md</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Embodied_intelligence">Embodied intelligence</a></li>
+<li><a href="https://ei.csail.mit.edu/">Home - Embodied Intelligence</a></li>
 
 </ul>
 </details>
 
-**标签**: `#PyTorch`, `#profiling`, `#CUDA`, `#performance optimization`, `#deep learning`
+**标签**: `#humanoid robots`, `#digital ID`, `#China`, `#AI regulation`, `#industry standards`
+
+---
+
+<a id="item-21"></a>
+## [比亚迪发布 4nm 智驾芯片“璇玑 A3”](https://finance.sina.com.cn/roll/2026-05-28/doc-inhznenn1371824.shtml) ⭐️ 7.0/10
+
+比亚迪宣布其 4 纳米“璇玑 A3”自动驾驶芯片已开始大规模量产，三颗芯片组合可提供超过 2100 TOPS 算力，支持 L3 和 L4 自动驾驶。 此举标志着比亚迪在汽车芯片垂直整合方面迈出重要一步，有望减少对外部芯片供应商的依赖，并在智能电动汽车竞争中增强自主性。 该芯片采用 4nm 制程工艺；三颗总计算力超过 2100 TOPS，意味着每颗约 700+ TOPS。比亚迪表示，结合自研算法优化，算力利用率提升 100%。
+
+telegram · zaihuapd · 5月28日 13:01
+
+**背景**: TOPS（每秒万亿次操作）是衡量 AI 加速器性能的常用指标，常用于自动驾驶芯片。L3 级自动驾驶要求驾驶员在系统请求时接管车辆，而 L4 级可在特定条件下实现无需驾驶员干预的自动驾驶。4nm 是先进的半导体制造节点，相比老节点能提供更高的晶体管密度和能效。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.cnet.com/tech/computing/what-does-tops-mean-and-does-it-matter-when-i-buy-a-laptop/">What Does TOPS Mean and Does It Matter When I Buy a Laptop?</a></li>
+<li><a href="https://www.synopsys.com/blogs/chip-design/autonomous-driving-levels.html">The 6 Levels of Vehicle Autonomy Explained | Synopsys Automotive</a></li>
+
+</ul>
+</details>
+
+**标签**: `#autonomous driving`, `#chip`, `#BYD`, `#automotive`, `#AI hardware`
+
+---
+
+<a id="item-22"></a>
+## [「继续？是/否」游戏模拟 AI 代理权限疲劳](https://llmgame.scalex.dev/) ⭐️ 6.0/10
+
+一款名为「继续？是/否」的浏览器游戏模拟了 AI 代理请求权限的场景，玩家需在 60 秒内快速决定批准或拒绝终端命令。 该游戏揭示了现实中 AI 代理权限疲劳的问题，即持续的审批请求可能让用户不堪重负，导致安全失误。 游戏中设有「安全意识工程师」勋章，可通过拒绝所有请求获得；但像`cat ~/.zshrc`或`ls -la ~/Documents`这样的命令被标记为危险，在社区中并非普遍认同，暴露了主观的安全假设。
+
+hackernews · Wirbelwind · 5月28日 13:02 · [社区讨论](https://news.ycombinator.com/item?id=48308376)
+
+**背景**: AI 代理是可以自主执行操作的软件，通常需要人类审批敏感命令。权限疲劳指用户被过多请求淹没，从而不加审查地授予权限。该游戏通过模拟终端界面快速弹出请求，讽刺了这一现象。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://aibusiness.com/agentic-ai/overwhelmed-by-agents-the-next-frontier-of-cybersecurity-fatigue">The Next Frontier of Cybersecurity Fatigue - aibusiness.com</a></li>
+<li><a href="https://www.forbes.com/councils/forbestechcouncil/2026/05/14/your-ai-agents-have-permissions-you-never-approved-heres-what-to-do-about-it/">What To Do When Your AI Agents Have Permissions You Never ...</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论者喜欢这个游戏，但对安全分级存在争议。一些人认为读取.zshrc 或列出文件并非固有风险，而另一些人警告无差别拒绝（如终止`lsof`）也可能有害。同时讨论了「拼命奋斗」式批准一切请求的玩法。
+
+**标签**: `#AI agents`, `#security`, `#game`, `#permission fatigue`, `#Show HN`
+
+---
+
+<a id="item-23"></a>
+## [欧盟对 Temu 罚款 2 亿欧元，因其平台销售非法商品](https://www.bbc.co.uk/news/articles/c1k2ydn1rz8o) ⭐️ 6.0/10
+
+欧盟因 Temu 平台允许销售非法商品而对其处以 2 亿欧元罚款。此举凸显了对中国直邮电商平台的持续审查。 这一罚款表明欧盟对快速增长的在线市场执行产品安全法规的立场更加强硬。这可能会影响 Temu 在欧洲的运营，并为其他平台树立先例。 罚款针对 Temu 未能阻止非法商品上架，但未披露具体产品类别。社区评论指出 Temu 通常提供更低的价格和定制服务。
+
+hackernews · jjp · 5月28日 14:18 · [社区讨论](https://news.ycombinator.com/item?id=48309302)
+
+**背景**: Temu 是一个中国电商平台，以从中国直邮低价商品至全球消费者而闻名。欧盟有《数字服务法》和产品安全规则等法规，平台必须遵守。若不遵守，可处以罚款。
+
+**社区讨论**: 评论者意见不一：一些人认为 Temu 满足了人们对廉价商品的实际需求，绕过了高利润的本地中间商；另一些人批评罚款是‘打地鼠’式的监管方式。还有一人质疑亚马逊或 eBay 是否也会受到类似处罚。
+
+**标签**: `#regulation`, `#e-commerce`, `#Temu`, `#EU`, `#platform-liability`
+
+---
+
+<a id="item-24"></a>
+## [VeritasReason：面向可解释 AI 智能体的开源知识图谱与策略引擎](https://www.reddit.com/r/MachineLearning/comments/1tqcmtj/i_built_a_knowledge_graph_policy_engine_for_ai/) ⭐️ 6.0/10
+
+VeritasReason 是一个新发布的开源 Python 框架，为 AI 智能体添加了结构化推理和完整的溯源追踪。它结合了上下文知识图谱、基于 YAML 规则的前向链式推理引擎以及 W3C PROV-O 合规性，以实现可解释、可审计的决策。 该框架解决了 AI 智能体决策中缺乏审计追踪的关键问题，这对于医疗、金融和法律等受监管行业至关重要，因为这些行业对信任和问责有着严格要求。 它采用前向链式推理引擎，规则通过 YAML 定义（无需编码），遵循 W3C PROV-O 溯源标准使得每项答案都可追溯至来源事实，并支持包括 OpenAI、Anthropic、Groq 和 Ollama 在内的任意大语言模型。
+
+reddit · r/MachineLearning · /u/BitterHouse8234 · 5月28日 18:50
+
+**背景**: 前向链式推理是一种用于专家系统的数据驱动推理方法，通过反复应用规则从已知事实中推导新结论。W3C PROV-O 是表示溯源信息的标准本体，使系统能以机器可读格式交换数据来源信息。知识图谱将信息组织为相互连接的节点和关系，从而能对智能体的决策进行结构化查询。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Forward_chaining">Forward chaining - Wikipedia</a></li>
+<li><a href="https://www.w3.org/TR/prov-o/">PROV-O: The PROV Ontology - World Wide Web Consortium (W3C)</a></li>
+
+</ul>
+</details>
+
+**标签**: `#open-source`, `#explainable-ai`, `#knowledge-graphs`, `#provenance`, `#ai-agents`
+
+---
+
+<a id="item-25"></a>
+## [CSM 在 BEAM 100K 基准测试中表现优于 Hindsight 且使用更少令牌](https://www.reddit.com/r/MachineLearning/comments/1tpjx2m/beam_100k_memory_benchmark_csm_vs_hindsight_local/) ⭐️ 6.0/10
+
+开源记忆系统 Context Swarm Memory（CSM）在 BEAM 100K 基准测试中取得了 0.757573 的 AMB 分数，略高于 Hindsight 的 0.733658，同时使用的答案可见上下文令牌减少了 38.2%，但检索速度较慢（29.23 秒对 6.38 秒）。 这一结果表明，CSM 的架构能够以显著更低的令牌消耗实现更好的记忆检索准确性，表明代理记忆系统可能具有成本和效率优势，但速度权衡问题仍需解决。 CSM 采用有界只读内存分片、查询路由、探测/回忆/合成、引用数据包以及明确的提交者门控写入；该对比是在 BEAM 100K 子集（400 个问题）上的本地工件测试，并非官方排行榜提交；需要独立复现。
+
+reddit · r/MachineLearning · /u/keonakoum · 5月27日 21:53
+
+**背景**: BEAM（代理记忆基准测试）是一个标准化基准测试，用于测试 AI 代理的长期记忆能力，包含 20 个多会话对话中的 400 个问题，令牌长度如 100K。它评估时间推理、实体跟踪和矛盾解决等记忆能力。Hindsight 是一个已知的记忆系统，此前被接受为本地基线。CSM 引入了一种新颖的基于分片的记忆架构，带有提交者门控写入。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/MemPalace/mempalace/issues/125">BEAM 100K benchmark results - first end-to-end answer quality evaluation · Issue #125 · MemPalace/mempalace</a></li>
+<li><a href="https://mem0.ai/blog/what-is-beam-memory-benchmark-the-paper-that-shows-1m-context-window-isnt-enough">What is BEAM Memory Benchmark? The Paper That Shows 1M Context Window Isn’t Enough</a></li>
+
+</ul>
+</details>
+
+**标签**: `#agent-memory`, `#benchmark`, `#machine-learning`, `#open-source`, `#retrieval`
+
+---
+
+<a id="item-26"></a>
+## [使用 CUDA 事件对 PyTorch 训练进行性能分析而不导致 GPU 停滞](https://www.reddit.com/r/MachineLearning/comments/1tp2nnw/profiling_pytorch_training_without_accidentally/) ⭐️ 6.0/10
+
+一种轻量级的性能分析技术，使用 CUDA 事件替代 torch.cuda.synchronize()来捕获 PyTorch 训练中的时间信息，而不会插入导致 GPU 停滞的同步点。 该方法使开发者能够以最小的开销对训练工作负载进行性能分析，且不改变 GPU 执行行为，从而获得更准确的性能洞察，实现更好的优化。 CUDA 事件在选定的边界处被记录并随后读取，避免了在热路径中强制同步。它可以作为使用 PyTorch Profiler 或 NVIDIA Nsight 等工具进行更深入分析之前的轻量级初诊手段。
+
+reddit · r/MachineLearning · /u/traceml-ai · 5月27日 11:24
+
+**背景**: PyTorch 在 GPU 上的操作是异步的；调用 torch.cuda.synchronize()会使 CPU 阻塞直到所有 GPU 任务完成，这可能扭曲时间测量并降低 GPU 利用率。CUDA 事件是轻量级标记，可以在不阻塞的情况下记录时间戳，从而准确测量异步操作的耗时。此方法有助于保持 CPU 与 GPU 工作的自然重叠。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://intro-to-cuda.readthedocs.io/en/latest/tutorial/events.html">CUDA Events — Introduction to CUDA Programming 0.1 documentation</a></li>
+<li><a href="https://docs.pytorch.org/docs/stable//generated/torch.cuda.synchronize.html">torch.cuda.synchronize — PyTorch 2.11 documentation</a></li>
+<li><a href="https://docs.nvidia.com/dl-cuda-graph/torch-cuda-graph/sync-free-code.html">Writing Sync-Free Code — CUDA Graph Best Practice for PyTorch</a></li>
+
+</ul>
+</details>
+
+**标签**: `#PyTorch`, `#profiling`, `#CUDA`, `#performance`, `#deep learning`
+
+---
+
+<a id="item-27"></a>
+## [索尼发布 Bravia 9 II 与 7 II，首次将独立 RGB LED 背光带入消费电视](https://www.flatpanelshd.com/news.php?subaction=showfull&amp;id=1779897602) ⭐️ 6.0/10
+
+索尼发布 2026 款 Bravia 9 II 和 Bravia 7 II 液晶电视，首次采用“True RGB”独立红绿蓝 LED 背光系统，峰值亮度接近 4000 尼特，色域覆盖超过 90% BT.2020 标准。 独立 RGB LED 背光有望弥合传统液晶电视亮度与 OLED 色彩表现之间的差距，提供更纯净的色彩和更高的色彩体积，使高端液晶电视在 HDR 显示上更具竞争力，同时避免 OLED 的烧屏风险。 Bravia 9 II 亮度达 4000 尼特，覆盖超过 90% BT.2020 色域，但依旧仅配备两个 HDMI 2.1 接口且不支持杜比视界 2；该系列新增 115 英寸巨幕型号，并配备可充电背光遥控器。
+
+telegram · zaihuapd · 5月28日 12:15
+
+**背景**: RGB LED 背光使用独立的红、绿、蓝 LED，而非传统的白光 LED 或蓝光 LED 加荧光粉方案，能产生更纯净的色彩。索尼自 2004 年推出首款消费级 RGB LED 电视 QUALIA 005 以来，一直深耕该技术，积累了丰富的背光控制经验。BT.2020 是面向超高清 HDR 内容的宽色域标准，目前顶尖 OLED 电视的覆盖大致在 80%左右。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.163.com/dy/article/KU1KLVUU0552CF5A.html">索尼True RGB超旗舰电视亮剑：二十载背光长征，终成“真彩原色”|rgb|ol...</a></li>
+<li><a href="https://www.sony.com.cn/content/sonyportal/zh-cn/cms/newscenter/product/2026/20260528-01.html">音画未来，即刻启程：索尼发布True RGB旗舰电视及家庭影院新物种Trio</a></li>
+<li><a href="https://blog.csdn.net/cc289123557/article/details/137405717">色域（BT2020/BT709/sRGB/DCI-P3/Rec.709/NTSC）_色域标准-CSDN博客</a></li>
+
+</ul>
+</details>
+
+**标签**: `#consumer electronics`, `#display technology`, `#Sony`, `#LED backlight`, `#TV announcement`
 
 ---
