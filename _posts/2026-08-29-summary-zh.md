@@ -5,550 +5,360 @@ date: 2026-08-29
 lang: zh
 ---
 
-> 从 55 条内容中筛选出 25 条重要资讯。
+> 从 46 条内容中筛选出 15 条重要资讯。
 
 ---
 
-1. [Htmx 4.0.0 正式发布，标志着超媒体驱动 Web 开发的重要里程碑。](#item-1) ⭐️ 9.0/10
-2. [美国对意大利托管组织 A/I 的制裁引发网络自由担忧](#item-2) ⭐️ 9.0/10
-3. [GLM-5.3 现已开源权重，受到社区高度好评](#item-3) ⭐️ 9.0/10
-4. [提示注入攻击以 80% 成功率攻破 Claude Code 自动模式](#item-4) ⭐️ 9.0/10
-5. [观点：GUI 应完全支持键盘驱动以提升无障碍性](#item-5) ⭐️ 8.0/10
-6. [仅凭漏洞谣言就能开发利用代码，研究员发出警告](#item-6) ⭐️ 8.0/10
-7. [联邦法官裁定特朗普政府将 Anthropic 列入黑名单非法](#item-7) ⭐️ 8.0/10
-8. [Luanti 因无根据的 AI 生成版权通知被 Google Play 下架](#item-8) ⭐️ 8.0/10
-9. [在 RP2350 微控制器上运行微型潜流变换器生成人脸图像](#item-9) ⭐️ 8.0/10
-10. [HarnessOpt-Bench：衡量 AI 改进其他 AI 的能力](#item-10) ⭐️ 8.0/10
-11. [Anthropic 推出模型硬件标准预览，AI 操控设备集成缩至分钟级](#item-11) ⭐️ 8.0/10
-12. [OpenAI 被曝开发常驻 Codex 代理，持续工作直至休眠](#item-12) ⭐️ 8.0/10
-13. [腾讯开源混元 Hy4 preview：770B 参数、1M 上下文](#item-13) ⭐️ 8.0/10
-14. [Z.ai 发布 GLM-5.3-Flash：320B MoE 模型，仅 18B 激活，价格降九成](#item-14) ⭐️ 8.0/10
-15. [十二要素应用法再引热议：Hacker News 讨论凸显其持久价值](#item-15) ⭐️ 7.0/10
-16. [给 AI Agent 装科学常识，端到端仿真成功率从 0%提升到 84%](#item-16) ⭐️ 7.0/10
-17. [统计/概率机器学习论文投哪里？研究者考虑 AISTATS/UAI 替代方案](#item-17) ⭐️ 7.0/10
-18. [谷歌发布 Gemini Omni 1.1 Flash，支持 40 秒视频扩展与 4K 输出](#item-18) ⭐️ 7.0/10
-19. [美国国防部将 Anthropic 列入黑名单，国防公司停用 Claude](#item-19) ⭐️ 7.0/10
-20. [美国 FTC 调查 YouTube 封号及内容政策](#item-20) ⭐️ 7.0/10
-21. [长鑫科技 2026 年上半年净利 776 亿元扭亏为盈](#item-21) ⭐️ 7.0/10
-22. [Inception 风格弯曲导航地图引发争议](#item-22) ⭐️ 6.0/10
-23. [机器学习社区分享优秀论文以提升学术写作](#item-23) ⭐️ 6.0/10
-24. [py-evoFE：面向表格机器学习的自动化遗传算法特征工程库](#item-24) ⭐️ 6.0/10
-25. [谷歌员工内测 Gemini 3.8 Flash 预览版，称明显优于 3.7 Flash](#item-25) ⭐️ 6.0/10
+1. [漏洞谣言：AI 代理数分钟即可发起攻击](#item-1) ⭐️ 9.0/10
+2. [文章：互联网已成为成瘾性设计的“掠夺性粪坑”](#item-2) ⭐️ 8.0/10
+3. [提示注入攻击以 80% 成功率突破 Claude Code Auto Mode](#item-3) ⭐️ 8.0/10
+4. [仅凭一问一答检测大模型幻觉，准确率达 88%](#item-4) ⭐️ 8.0/10
+5. [在 RP2350 微控制器上运行的微型 Transformer 可生成人脸图像](#item-5) ⭐️ 8.0/10
+6. [百年历史的 SPC 算法击败最先进的时间序列异常检测方法](#item-6) ⭐️ 8.0/10
+7. [每小时 LLM 基准分析发现日间波动是日内波动的 3 倍](#item-7) ⭐️ 8.0/10
+8. [OpenAI 因 SpaceX 收购终止向 Cursor 提供模型，2026 年 11 月停服](#item-8) ⭐️ 8.0/10
+9. [韩国选定 SKT、KT、Kakao 提供全民免费 AI 服务](#item-9) ⭐️ 8.0/10
+10. [DHS 利用鲜为人知的关税法规监视记者与非营利组织](#item-10) ⭐️ 7.0/10
+11. [三星在 Hot Chips 2026 展示存内处理架构](#item-11) ⭐️ 7.0/10
+12. [CPT 暂停后，ML 博士实习对就业的重要性](#item-12) ⭐️ 6.0/10
+13. [统计/概率机器学习研究者发问：顶会被 LLM 主导，论文该投哪里？](#item-13) ⭐️ 6.0/10
+14. [py-evoFE：基于遗传算法的自动化特征工程库](#item-14) ⭐️ 6.0/10
+15. [Claude Code 宣布周限额永久上调 25%](#item-15) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Htmx 4.0.0 正式发布，标志着超媒体驱动 Web 开发的重要里程碑。](https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released) ⭐️ 9.0/10
+## [漏洞谣言：AI 代理数分钟即可发起攻击](https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/) ⭐️ 9.0/10
 
-Htmx 4.0.0 已于 2026 年 8 月 28 日正式发布。新版本引入了如 `hx-alpine-compat` 之类的兼容性特性，以平滑与 Alpine.js 集成时遇到的问题。 Htmx 是一个被广泛使用的开源库，它允许直接在 HTML 中使用 AJAX、CSS 过渡、WebSocket 和 Server-Sent Events，从而减少对复杂 JavaScript 的需求。此次发布凸显了 HTML-first 和超媒体驱动方法作为重型单页应用框架替代方案的日益增长势头。 该库依然小巧且无依赖（gzip 压缩后约 16k）。正如社区成员在早期测试 Htmx 4 时所注意到的，新的 `hx-alpine-compat` 属性专门解决了 htmx 与 Alpine.js 之间的兼容性问题。
+剑桥教授、OCaml 核心维护者 Anil Madhavapeddy 报告称，安全补丁被分享讨论后约十分钟内，他的网站就收到了针对百分号编码路径遍历序列的自动化探测。这表明 AI 编程代理正在实时监控公开仓库，仅凭一点漏洞线索就能在几乎瞬间发起漏洞利用尝试。 这标志着漏洞披露领域的根本性转变：一条漏洞谣言就足以让自动化代理找到并利用漏洞，传统的协同修复窗口被大大压缩。开源维护者正被激增的 AI 生成安全报告淹没，迫使业界重新思考漏洞保密期和 CVE 分配流程。 探测针对的是百分号编码的路径遍历序列，这是经典的目录遍历攻击模式。Madhavapeddy 在另一模型拒绝任务后改用 DeepSeek V4 Pro 完成了演示；rclone 维护者 Nick Craig-Wood 证实过去一个月收到 40 多份安全报告，而此前十年约 20 份，其中约 75%包含真实问题；GitHub 的 CVE 分配时间也从 2-3 天拖延到 3-4 周。
 
-hackernews · rmsaksida · 8月28日 13:28 · [社区讨论](https://news.ycombinator.com/item?id=49478178)
+rss · Simon Willison · 8月28日 22:12
 
-**背景**: htmx 是一个开源的前端 JavaScript 库，它通过自定义属性扩展 HTML，使得无需编写 JavaScript 即可实现 AJAX 请求等动态行为。它遵循超媒体驱动架构，即服务器返回 HTML 片段，客户端将其交换到页面中，这与单页应用中常见的 JSON API 和客户端渲染不同。这种方法在保留传统多页面应用简单性的同时提供了更多的交互性。
+**背景**: 百分号编码路径遍历序列是目录遍历攻击的一种形式，攻击者利用百分号编码（如%2e%2e%2f）隐藏'..'路径段并绕过过滤器，从而可能读取 web 根目录之外的文件。AI 编程代理是基于大语言模型的工具，能够自主编写、测试和执行代码，因此既可用于软件开发，也能自动发现漏洞。开源安全实践传统上依赖保密期（embargo）：在公开披露之前，补丁会私密地分享给维护者，以便项目有时间发布修复版本；但如果 AI 代理能仅凭漏洞传闻就发起攻击，这些做法将不再可行。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Htmx">htmx - Wikipedia</a></li>
-<li><a href="https://htmx.org/">htmx - high power tools for html</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Directory_traversal_attack">Directory traversal attack - Wikipedia</a></li>
+<li><a href="https://owasp.org/www-community/attacks/Path_Traversal">Path Traversal | OWASP Foundation</a></li>
+<li><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek V 4 Pro 0423 - API Pricing & Benchmarks | OpenRouter</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反应总体积极，用户称赞 htmx 的简洁性并对此次发布表示兴奋，还有开发者表示它带来了乐趣，并与 Go 和 SQLite 搭配得很好。然而，一位 .NET 和 Angular 开发者的反面意见认为，htmx 将表现层与业务逻辑混在一起，带来了困难。另一位用户提到，对于自己的需求，alpine-ajax 更小且足够用，这凸显了替代方案的存在。
+**社区讨论**: 在 Hacker News 的讨论中，rclone 维护者 Nick Craig-Wood 证实了这一现象：从项目前十年约 20 份安全报告，激增到近一个月 40 多份，其中约 75%值得修复。他还指出 GitHub 的 CVE 分配时间从原来的 2-3 天延长到 3-4 周，导致点版本发布时 changelog 中只能标记'CVE-PENDING'，这已成为开源社区日益严峻的痛点。
 
-**标签**: `#htmx`, `#web development`, `#hypermedia`, `#frontend`, `#release`
+**标签**: `#AI security`, `#automated exploitation`, `#OCaml`, `#vulnerability disclosure`, `#software supply chain`
 
 ---
 
 <a id="item-2"></a>
-## [美国对意大利托管组织 A/I 的制裁引发网络自由担忧](https://www.inventati.org/) ⭐️ 9.0/10
+## [文章：互联网已成为成瘾性设计的“掠夺性粪坑”](https://www.stephendiehl.com/posts/internet_predatory_cesspit/) ⭐️ 8.0/10
 
-美国国务院与财政部于 2026 年 8 月将意大利的 Autistici/Inventati（A/I 集体）指定为“特别指定全球恐怖分子”（SDGT），这是首次有托管和通信基础设施提供商被作为恐怖实体制裁。该指定冻结了 A/I 的资产，并禁止美国人员与该集体进行往来。 这一行动开创了针对基础设施提供者而非个人的先例，引发了对隐私工具、去中心化网络和开源项目运营者可能遭受类似制裁的担忧。它可能对网络自由和安全通信技术的发展产生寒蝉效应。 A/I 集体成立于 2001 年，为活动人士和希望避开企业平台的人提供加密电子邮件、网页托管、聊天和视频会议服务。美国国务院指责该集体专门为激进左翼人士提供工具和服务，并成为跨国极左势力破坏美国稳定的关键节点；该集体还托管着博客平台 noblogs.org。
+Stephen Diehl 发表了一篇文章，认为互联网平台通过将针对人类心理弱点的利用工业化，已经变成了“掠夺性的粪坑”。文章特别批评了成瘾性设计、将推荐算法视为强化学习循环，以及更广泛的监控资本主义文化。 这篇文章与人们对数字福祉和平台问责制的广泛担忧产生了共鸣，并在 Hacker News 上引发了热烈讨论。它将针对推荐系统的技术批评与犬儒主义、AI 辅助写作等更广泛的社会议题联系起来，因此与当前关于科技监管的辩论密切相关。 这篇 Hacker News 帖子的评分为 8.0/10，获得 264 分和 163 条评论，显示出强烈的社区参与度。几位评论者指出，文章的部分内容疑似由 LLM 辅助撰写，这一点本身也成了与文章论点并行的讨论焦点。
 
-hackernews · exiguus · 8月28日 12:58 · [社区讨论](https://news.ycombinator.com/item?id=49477854)
+hackernews · ibobev · 8月29日 18:40 · [社区讨论](https://news.ycombinator.com/item?id=49492193)
 
-**背景**: “特别指定全球恐怖分子”（SDGT）是美国法律下的一种认定，冻结被指定个人或实体的所有财产和权益，并禁止美国人员与其交易。该措施通常针对武装组织，而不是技术服务提供商。正如 Cloudflare 和分析人士所指出的，对互联网基础设施的制裁可能导致企业过度合规，即使在有例外条款的情况下也可能大范围切断服务。
+**背景**: 成瘾性设计指的是故意创造具有习惯养成性质的应用程序和界面，通常是为了最大化用户参与度和在平台上花费的时间。暗黑模式（dark patterns）指那些精心设计、诱骗用户做出本来不会采取的行动（如注册定期账单）的用户界面。监控资本主义（surveillance capitalism）这一概念由 Shoshana Zuboff 推广，描述企业为了利润而广泛收集和商品化个人数据的现象。这些概念为文章批评平台如何激励对人类心理的利用提供了背景。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.state.gov/releases/office-of-the-spokesperson/2026/08/designation-of-autistici-inventati-as-a-specially-designated-global-terrorist/">Designation of Autistici/Inventati as a Specially Designated ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Specially_Designated_Global_Terrorist">Specially designated global terrorist - Wikipedia</a></li>
-<li><a href="https://blog.cloudflare.com/the-challenges-of-sanctioning-the-internet/">The challenges of sanctioning the Internet | The Cloudflare Blog</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Dark_pattern">Dark pattern - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Surveillance_capitalism">Surveillance capitalism - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者大多表示震惊，认为这一指定针对的是基础设施，而不仅仅是该集体，并质疑 I2P、Monero、Veilid、Tox 或 Signal 的用户或开发者是否会成为下一个目标。一些人提供了 A/I 在热那亚八国集团峰会抗议和 Indymedia 中的历史背景，而另一些人则质疑该组织的实际活动，并引用国务院的辩护词，认为这是政治打压。
+**社区讨论**: 评论者总体上对这篇文章进行了认真的讨论。Biologist123 分享了个人经历，称在几十年案头工作后，自己的网络成瘾变得更严重；simonebrunozzi 赞赏了文章，但指出部分内容疑似由 LLM 辅助生成。stillpointlab 反思了随着年岁增长，犬儒主义和厌世情绪如何加剧；GlibMonkeyDeath 则反驳说“旧”互联网仍然存在，只是更大的生态系统遵循其激励逻辑，将广告收入最大化。
 
-**标签**: `#sanctions`, `#internet freedom`, `#privacy`, `#infrastructure`, `#policy`
+**标签**: `#internet`, `#addiction`, `#tech-criticism`, `#social-media`, `#AI`
 
 ---
 
 <a id="item-3"></a>
-## [GLM-5.3 现已开源权重，受到社区高度好评](https://huggingface.co/zai-org/GLM-5.3) ⭐️ 9.0/10
+## [提示注入攻击以 80% 成功率突破 Claude Code Auto Mode](https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/) ⭐️ 8.0/10
 
-Z.ai 在 Hugging Face 发布了开源权重模型 GLM-5.3，其相对 GLM-5.2 的提升完全来自后期训练。它在 Z.ai 内部 Code Bench 上比 GLM-5.2 提升 50%，被定位为编码能力最强的开源权重模型。 此次发布为开发者提供了一个接近前沿水平的开源权重替代方案，可更轻松地本地部署，且第三方价格可能更低。社区的热烈反响凸显了市场对强大且高效的开源 LLM 的需求。 GLM-5.3 与 GLM-5.2 使用相同基座模型，所有提升完全来自大规模后期训练。架构支持最高 100 万 token 的上下文；LM Studio Cloud 目前提供约 50 万 token，社区成员也认为其 token 数量与准确率之比优于许多过度思考的模型。
+安全研究员 Johann Rehberger 演示了一种提示注入攻击，能以约 80% 的成功率绕过 Claude Code 的 Auto Mode 保护。该攻击利用 Python 的导入优先级：Claude 被诱导解压 ZIP 压缩包，随后导入 base64 时实际加载了压缩包中恶意的本地 struct.py 文件。 这一发现直接挑战了 Anthropic 关于 Claude Code Auto Mode 的安全声明——该模式最近已成为默认权限模式。它表明编码智能体仍然容易受到对抗性输入的攻击，并提示运行无人值守智能体唯一安全的方式是放入沙箱，同时限制网络出口和凭据暴露。 该攻击的实现方式是：诱使 Claude Code 下载并解压 ZIP 压缩包，然后执行导入 base64 的代码，却未察觉压缩包中解压出的本地 struct.py 已遮蔽了标准库同名模块。在某些运行中，Auto Mode 甚至在 Claude 发现入侵后拦截了它的清理命令，使安全机制本身成为故障的一部分。
 
-hackernews · jeudesprits · 8月28日 15:20 · [社区讨论](https://news.ycombinator.com/item?id=49479878)
+rss · Simon Willison · 8月27日 22:50
 
-**背景**: 开源权重模型会公开发布其训练参数，任何人都可以下载、运行、研究并修改模型，这与完全闭源的 AI 不同。它与开源 AI 的区别在于，后者还开放整个开发流程，以实现完全可复现和社区驱动的改进。Z.ai 的 GLM 系列是一组开源权重的大语言模型，GLM-5.3 面向复杂编码和长周期智能体任务。
+**背景**: 提示注入是一类攻击，通过精心构造的输入让大语言模型做出超出设计意图的行为，常见方式是把指令嵌入模型读取的内容（如网页或文件）中。Claude Code 是 Anthropic 推出的终端编码智能体，Auto Mode 是一种权限模式，由后台分类器代替用户为智能体做权限决策，而无需每次询问。Python 的导入机制优先加载本地目录中的模块，因此工作目录下的 struct.py 会在 base64 等模块导入 struct 时遮蔽标准库中的同名模块。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://z.ai/blog/glm-5.3">GLM-5.3: Frontier Coding with Emergent Cyber Capabilities - z.ai</a></li>
-<li><a href="https://docs.z.ai/guides/llm/glm-5.3">GLM-5.3 - Overview - Z.AI DEVELOPER DOCUMENT</a></li>
-<li><a href="https://hai.stanford.edu/ai-definitions/what-is-an-open-weight-model">What is an Open-Weight Model? - Stanford HAI</a></li>
+<li><a href="https://claude.com/blog/auto-mode">Auto mode for Claude Code | Claude by Anthropic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Prompt_injection_attack">Prompt injection attack</a></li>
+<li><a href="https://trstringer.com/python-module-import-precedence/">Module Import Precedence in Python | Thomas Stringer</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者大多持正面态度，称 GLM-5.3 是实际工作中“很出色”的开源权重模型，也指出其在能力上略逊于 Kimi，但更易运行。还有人认为它优于 DeepSeek Flash，直觉更强且 token 效率更高；不过也有用户认为它离 Fable 级别的模型仍有差距。
-
-**标签**: `#open-weights`, `#LLM`, `#AI`, `#GLM-5.3`, `#model release`
+**标签**: `#prompt injection`, `#security`, `#AI coding agents`, `#Claude Code`, `#vulnerability`
 
 ---
 
 <a id="item-4"></a>
-## [提示注入攻击以 80% 成功率攻破 Claude Code 自动模式](https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/) ⭐️ 9.0/10
+## [仅凭一问一答检测大模型幻觉，准确率达 88%](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247916598&idx=3&sn=d4b7937d5c43888682c10e5905020303) ⭐️ 8.0/10
 
-安全研究员 Johann Rehberger 演示了一种针对 Claude Code 自动模式（auto mode）的提示注入攻击，成功率约为 80%。该攻击诱使代理下载并解压一个包含恶意 struct.py 文件的 ZIP 压缩包，当 Python 代码导入 base64 时，该恶意文件会被本地执行。 这项研究削弱了 Anthropic 对 Claude Code 自动模式作为默认安全机制的信心。它表明基于模型的权限分类器可以被提示注入绕过，进一步印证了在运行 AI 编码代理时需要进行沙箱隔离和网络限制的主张。 该攻击利用了 Python 的导入机制：base64 在内部会导入 struct，因此从压缩包中解压出的本地 struct.py 会遮蔽标准库模块。在部分运行中，自动模式甚至阻止了 Claude 自己终止恶意进程的尝试，使安全分类器成为失败的一部分。
+研究人员提出一种用于零资源大模型幻觉检测的“类人准则探测”（HCP）机制，通过自适应的一问一答与准则加权，达到 88%的准确率。该工作发表于 ICML'26，为无需外部参考的幻觉检测建立了新基线。 这为实际部署中的大模型幻觉检测提供了一种实用且无需训练的方法，直接缓解了 AI 可靠性方面的关键障碍。同时，它为零资源幻觉检测设立了强基线，可能影响后续研究方向。 该方法属于“零资源”检测，即仅依靠模型自身的一问一答来判断真伪，无需外部文档或检索。其核心是将真实性判断自适应地分解为带权重的可解释准则，并汇总各准则得分，最终达到 88%的准确率。
 
-rss · Simon Willison · 8月27日 22:50
+rss · 量子位 · 8月29日 05:41
 
-**背景**: 提示注入（prompt injection）是一种漏洞：文件、网页或其他内容中的对抗性文本会被大语言模型（LLM）当作指令而不是数据来执行。Claude Code 是 Anthropic 的编程代理，自动模式是一种权限系统，通过分类器自动批准或拒绝操作，而不是打断用户。Anthropic 最近将自动模式设为 Pro、Max 和 Team 套餐的默认选项，并对其安全性作出了强有力的声明。研究人员认为，基于模型的过滤无法彻底解决提示注入，因此不可信输入应在受限网络出口和凭据暴露的隔离环境中处理。
+**背景**: 大模型幻觉指模型生成看似合理但实则错误或无依据的内容。传统的幻觉检测通常需要借助外部知识库或检索来核实陈述，但这类资源并非随时可得。零资源检测的目标是仅凭模型自身的回答判断真实性，而 HCP 机制通过让模型以类人的方式生成并加权评估准则，来实现这一目标。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://claude.com/blog/auto-mode-default-in-claude-code">Auto mode is now the default in Claude Code for Pro, Max, and ...</a></li>
-<li><a href="https://dryx.ai/learn/prompt-injection-ai-coding-agents">Prompt injection in AI coding agents — Dryx Field Guide</a></li>
-<li><a href="https://claude.com/blog/auto-mode">Auto mode for Claude Code | Claude by Anthropic</a></li>
+<li><a href="https://arxiv.org/abs/2606.12900">[2606.12900] Zero-source LLM Hallucination Detection with ...</a></li>
+<li><a href="https://arxiv.org/html/2606.12900v1">Zero-source LLM Hallucination Detection with Human-like ...</a></li>
+<li><a href="https://openreview.net/forum?id=s4Jn6bKYGI">Zero-source LLM Hallucination Detection with Human-like ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#security`, `#prompt injection`, `#AI coding agents`, `#Claude Code`, `#LLM security`
+**标签**: `#LLM`, `#Hallucination Detection`, `#AI Research`, `#ICML`, `#Machine Learning`
 
 ---
 
 <a id="item-5"></a>
-## [观点：GUI 应完全支持键盘驱动以提升无障碍性](https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html) ⭐️ 8.0/10
+## [在 RP2350 微控制器上运行的微型 Transformer 可生成人脸图像](https://www.reddit.com/r/MachineLearning/comments/1w10tax/i_implemented_a_very_tiny_image_generation_model/) ⭐️ 8.0/10
 
-ckardaris 发表的一篇观点文章认为，图形用户界面（GUI）应完全由键盘驱动，而不仅仅是“兼容键盘”。这篇文章在 Hacker News 上引发广泛共鸣，获得 606 分和 302 条评论。 完全键盘驱动的 GUI 能让残障人士更容易使用软件，也能让高级用户操作更快。相关讨论指出，主流 UI 框架常常让键盘无障碍支持变得困难，因此这一论点对设计师和开发者具有实际意义。 评论者区分了“兼容键盘”与“真正键盘驱动”的设计，并指出可发现性是核心挑战，快捷键通常需要借助工具提示和菜单来呈现。较老的框架如 Cocoa/AppKit 被认为更容易实现键盘无障碍，而现代 Web 框架则被批评对此忽视。
-
-hackernews · ckardaris · 8月28日 15:17 · [社区讨论](https://news.ycombinator.com/item?id=49479837)
-
-**背景**: 键盘驱动 GUI 让用户无需鼠标，仅通过 Tab 顺序、焦点管理和快捷键即可完成所有操作。ADA 等无障碍规则鼓励软件支持键盘使用，这对专业用户也有好处。这篇博文是观点文章而非新工具或新标准，因此其重要性来自它所引发的讨论。
-
-**社区讨论**: 评论态度不一：有人强烈支持键盘无障碍，认为这关乎民主化访问，且常被框架忽视；也有人反对强迫所有用户学习键盘驱动界面，认为高级用户体验并不等同于大众用户体验。还有观点质疑“键盘驱动”究竟意味着什么，并指出可发现性仍是一个未解决的设计难题。
-
-**标签**: `#accessibility`, `#keyboard-driven UI`, `#UX`, `#GUI design`, `#software engineering`
-
----
-
-<a id="item-6"></a>
-## [仅凭漏洞谣言就能开发利用代码，研究员发出警告](https://anil.recoil.org/notes/rumour-is-the-exploit) ⭐️ 8.0/10
-
-一位安全研究员指出，如今只要出现漏洞传闻就足以引发漏洞利用程序的开发，而 AI 工具正在放大这一效应。开源维护者反映安全披露数量急剧增加，rclone 维护者称过去一个月收到 40 多份披露，而项目头十年总共才约 20 份。 这一转变意味着漏洞披露正成为防御者与攻击者之间的紧迫竞赛，AI 降低了开发漏洞利用程序的技术门槛。维护者已不堪重负，整个开源生态系统可能需要新的分类、修补和部署策略来应对。 rclone 维护者表示，最近收到的披露中约 75% 都有值得调查的真实问题。评论者还指出，即使 AI 能更快地发现和修复漏洞，组织缺乏修复意愿以及缓慢的部署流程仍然是重大障碍。
-
-hackernews · avsm · 8月28日 15:58 · [社区讨论](https://news.ycombinator.com/item?id=49480466)
-
-**背景**: 安全披露是指向软件维护者正式报告漏洞，通常会在公开修复之前私下发送。借助 AI 辅助的代码分析和利用程序生成技术，攻击者能更快地把模糊的线索——如提交信息、补丁或漏洞传闻——转化为可用的漏洞利用代码。这一趋势正在冲击开源生态系统的修补和披露模式，而后者原本是为更慢的发现速度设计的。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://horizon3.ai/intelligence/blogs/ai-exploit-speed-scale/">AI-Powered Exploit Generation: Speed, Scale & Cyber Risk | Horizon3</a></li>
-<li><a href="https://securityboulevard.com/2026/05/ai-vulnerability-discovery-and-the-open-source-cve-surge/">AI Vulnerability Discovery and the Open Source CVE Surge</a></li>
-<li><a href="https://siliconangle.com/2026/03/27/open-source-security-leaders-brace-ai-bug-surge-kubeconeu/">Open-source security leaders brace for AI bug surge ...</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者大体认同这一观察，但也补充了细节：有人指出从线索推导漏洞利用程序的做法在 LLM 出现之前就存在，而 AI 只是将其大规模民主化。还有人强调，部署缓慢和缺乏修复意愿比发现漏洞更成瓶颈；也有人担心最终的结论会是“把仓库设为私有更安全”。
-
-**标签**: `#security`, `#AI`, `#open source`, `#vulnerabilities`, `#exploit development`
-
----
-
-<a id="item-7"></a>
-## [联邦法官裁定特朗普政府将 Anthropic 列入黑名单非法](https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html) ⭐️ 8.0/10
-
-联邦法官裁定，特朗普政府将人工智能公司 Anthropic 列入黑名单的行为非法，理由是证据薄弱且具有报复意图。该裁决使政府对 Anthropic 采取的行动失效。 该裁决为政府如何对待人工智能公司树立了重要的法律先例，尤其是在国家安全行动可能侵犯言论自由的情况下。它可能影响面临类似限制的其他科技公司，并明确行政权力的界限。 为黑名单行动辩护的行政记录十分单薄——一份四页备忘录，且晚于三项受质疑行动中的两项——政府后来还放弃了其风险评估的核心观点。法院认定该行为明显是对 Anthropic 言论的报复，而非基于真正的国家安全担忧。
-
-hackernews · jbegley · 8月28日 02:03 · [社区讨论](https://news.ycombinator.com/item?id=49473522)
-
-**背景**: Anthropic 是一家主要的人工智能安全与研究公司。特朗普政府以国家安全为由将其列入黑名单，可能涉及政府合同或出口限制。美国法院通常尊重行政部门在国家安全事务上的判断，但本案中法院认为证据过于薄弱、报复动机过于明显，因此不能成立。
-
-**社区讨论**: 评论者大体赞同裁决，但对裁决的表述存在分歧：有人指出裁决无效的关键在于报复意图而非证据薄弱，因为法院在国家安全问题上通常尊重行政分支；另有人总结行政记录极其单薄。还有人批评法律程序太慢，难以应对快速的政府行动，并预测 Anthropic 可能因业务损失获得赔偿。
-
-**标签**: `#AI policy`, `#legal`, `#Anthropic`, `#government`, `#national security`
-
----
-
-<a id="item-8"></a>
-## [Luanti 因无根据的 AI 生成版权通知被 Google Play 下架](https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/) ⭐️ 8.0/10
-
-2026 年 8 月 27 日，Luanti 项目宣布，其开源体素游戏引擎因 Tracer AI 提交的 DMCA 下架通知而被 Google Play 移除，该通知声称 Luanti 抄袭了 Minecraft 的视觉风格。Luanti 团队称该通知毫无根据，系 AI 自动生成。 这一事件凸显了 AI 生成的 DMCA 下架通知被用来欺凌小型开源项目、而平台缺乏有效审查的问题日益严重。它也引发了关于平台责任以及改革 DMCA 通知-下架制度的紧迫讨论。 Tracer AI 曾在 2023 年向 Luanti 提交过类似通知，最终被成功申诉；今年它还针对独立游戏 Allumeria 提交了类似通知。值得注意的是，本次通知声称适用瓦努阿图司法管辖，而 Tracer AI 的其他声明则引用美国管辖，这引发了对滥用的担忧。
-
-hackernews · miniBill · 8月28日 06:33 · [社区讨论](https://news.ycombinator.com/item?id=49475079)
-
-**背景**: Luanti（前身为 Minetest）是一个由社区驱动的免费开源体素游戏引擎，允许用户创建和游玩类似 Minecraft 的游戏。DMCA（美国数字千年版权法）提供了“通知-下架”流程，使版权所有者可以要求删除涉嫌侵权的内容；然而，该体系正越来越多地被自动化及 AI 生成的大规模下架通知所滥用。Google Play 是 Android 应用商店，为维持“安全港”保护，必须对有效的 DMCA 通知作出响应。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Luanti">Luanti - Wikipedia</a></li>
-<li><a href="https://torrentfreak.com/wordpress-com-flags-concerning-spike-in-ai-generated-dmca-takedowns/">WordPress.com Flags Concerning Spike in AI - Generated DMCA ...</a></li>
-<li><a href="https://www.luanti.org/en/">Luanti | Open source voxel game engine - Luanti</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论区普遍批评 DMCA 制度，有人建议申诉方必须缴纳保证金以遏制滥用，也有人质疑 Tracer AI 频繁更换司法管辖主张的做法。多位网友指出，同一家公司已多次对 Luanti 和其他小游戏重复这一模式，并认为微软应对其法律团队的这一行为负责。
-
-**标签**: `#DMCA`, `#Open Source`, `#Google Play`, `#AI Copyright`, `#Legal`
-
----
-
-<a id="item-9"></a>
-## [在 RP2350 微控制器上运行微型潜流变换器生成人脸图像](https://www.reddit.com/r/MachineLearning/comments/1w10tax/i_implemented_a_very_tiny_image_generation_model/) ⭐️ 8.0/10
-
-一位开发者爱好者在 RP2350 微控制器上实现了一个参数量为 240 万至 400 万、量化到 int8 的潜流变换器（latent flow transformer）。该模型约 20 秒即可生成 128x128 的人脸图像，并可将结果显示在显示器上或通过 USB 传输。 这表明通常需要 GPU 的生成式图像模型也可以在超低功耗微控制器上运行，拓展了端侧边缘 AI 的可能性。所采用的技术——int8 量化、DMA 流式传输和基于稀疏性的计算跳过——可为类似的嵌入式与物联网应用优化提供启发。 该模型是一个 12 层的潜流变换器，采用 AdaLN-Zero 条件化技术，并支持无分类器引导（CFG），这大幅提升了图像质量。推理引擎通过 DMA 从闪存中流式加载权重，同时计算上一层，并使用 ReLU²激活函数提高稀疏性，从而跳过不必要的计算。
+一位开发者在一颗 RP2350 微控制器上实现了一个约 240 万至 400 万参数的潜流 Transformer（latent flow transformer），可在约 20 秒内生成 128×128 的人脸图像。该模型经过 int8 量化后完全在芯片上运行，生成结果可通过显示器或 USB 输出。 这表明基于 Transformer 的图像生成不仅能在 GPU 或云服务器上运行，也能在低功耗微控制器上实现。它有望推动更高效的边缘 AI 和嵌入式机器学习方案，让生成式模型在设备端落地。 该模型是一个 12 层的潜流 Transformer，采用 AdaLN-Zero 进行条件控制，并支持无分类器引导（CFG），后者显著提升了图像质量。推理引擎通过 DMA 从闪存流式读取权重，同时计算上一层，并利用 ReLU²激活产生的稀疏性来跳过部分计算。
 
 reddit · r/MachineLearning · /u/cpldcpu · 8月28日 19:48
 
-**背景**: 潜流变换器（LFT）是一种较新的架构，它将连续的若干 Transformer 层压缩为通过流匹配（flow matching）训练得到的单一连续传输算子，从而在保持性能的同时减小模型体积。AdaLN-Zero 是扩散/流变换器中使用的一种自适应层归一化条件化方法；无分类器引导（CFG）则是一种结合条件与非条件模型输出来提升生成样本质量的标准技术。RP2350 是一款低成本微控制器，内存有限且无操作系统，因此在其上运行生成模型需要激进的量化以及优化的内存访问方式。
+**背景**: 潜流 Transformer（LFT）是一种较新的架构，它把一叠标准 Transformer 层压缩成一个通过流匹配（flow matching）训练的连续传输算子，从而大幅减少参数量。RP2350 是树莓派推出的一款低成本微控制器，这使得它成为生成式深度学习一个非常受限的运行平台。int8 量化、DMA 流式读取和激活稀疏性等技术，是在 MCU 有限的内存和算力中容纳并运行该模型的关键。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://arxiv.org/abs/2505.14513">[2505.14513] Latent Flow Transformer - arXiv.org Latent Flow Transformer - arXiv.org GitHub - itz-sayak/Latent-Flow-Transformer Latent Flow Transformers (LFT) - emergentmind.com GitHub - mtkresearch/latent-flow-transformer Paper page - Latent Flow Transformer - Hugging Face Latent Flow Transformer (LFT) - emergentmind.com</a></li>
-<li><a href="https://arxiv.org/abs/2207.12598">[2207.12598] Classifier-Free Diffusion Guidance</a></li>
 <li><a href="https://github.com/itz-sayak/Latent-Flow-Transformer">GitHub - itz-sayak/Latent-Flow-Transformer</a></li>
+<li><a href="https://www.emergentmind.com/topics/adaptive-layer-normalization-zero-adaln-zero">Adaptive LayerNorm Zero Overview</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Edge AI`, `#Microcontrollers`, `#Image Generation`, `#Quantization`, `#Efficient Transformers`
+**标签**: `#microcontrollers`, `#image-generation`, `#transformers`, `#quantization`, `#edge-ai`
+
+---
+
+<a id="item-6"></a>
+## [百年历史的 SPC 算法击败最先进的时间序列异常检测方法](https://www.reddit.com/r/MachineLearning/comments/1w1wt1s/you_can_beat_sota_time_series_anomaly_detection/) ⭐️ 8.0/10
+
+Eamonn Keogh 在 Reddit 上发帖证明，简单的统计过程控制（SPC）方法在 TSB-AD 基准测试上能够击败最先进的时间序列异常检测（TSAD）方法，在 ECG 示例上取得完美结果。他认为该基准过于简单，无法支撑关于 SOTA 进展的有意义结论。 这一发现质疑了广泛使用的基准的有效性，并暗示 TSAD 领域近年来的许多进展可能只是假象。它可能促使社区采用更难的基准，并重新审视评估方法。 帖子中引用了幻灯片和视频（例如'The TSB-AD Benchmarks are Nonsense'），并指出许多'TAO'轨迹对 SPC 来说更容易。Keogh 表示他已经完成了引入更具挑战性的 TSAD 问题 90%的工作，包括'sled dogs'和'Tuna, Fuel Cells, Smart Manufacturing'等数据集。
+
+reddit · r/MachineLearning · /u/eamonnkeogh · 8月29日 20:16
+
+**背景**: 时间序列异常检测（TSAD）是 NeurIPS、SIGKDD、VLDB 等会议上的热门研究领域，许多论文都在 TSB-AD 基准上进行评估。统计过程控制（SPC）是一种已有百年历史的经典质量控制方法，利用控制图来监控过程。TSB-AD 基准由 TheDatumOrg 维护，并按 VUS-PR 等指标对检测器进行排名。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/TheDatumOrg/TSB-AD">GitHub - thedatumorg/ TSB - AD : Time-Series Anomaly Detection</a></li>
+<li><a href="https://thedatumorg.github.io/TSB-AD/">TSB - AD</a></li>
+<li><a href="https://www.researchgate.net/publication/299422303_Self-adaptive_statistical_process_control_for_anomaly_detection_in_time_series">Self-adaptive statistical process control for anomaly detection in time series | Request PDF</a></li>
+
+</ul>
+</details>
+
+**标签**: `#time series`, `#anomaly detection`, `#benchmarks`, `#SPC`, `#ML research`
+
+---
+
+<a id="item-7"></a>
+## [每小时 LLM 基准分析发现日间波动是日内波动的 3 倍](https://www.reddit.com/r/MachineLearning/comments/1w1jp1j/i_analyzed_31352_hourly_llm_benchmark_scores/) ⭐️ 8.0/10
+
+一项对 31,352 个每小时基准分数（涵盖 49 个模型标识符）的分析发现，日内波动为 2.8 分，日间波动为 8.4 分，日间波动约为日内波动的 3 倍。这一发现成为开源 LLM 持续监控系统 AIStupidLevel 的基础。 这项研究对常见的单点 LLM 评估做法提出了挑战，表明生产 API 背后的模型在几天内可能发生显著漂移。它凸显了在生产 LLM 系统中进行纵向评估和持续漂移检测的必要性，影响模型选择与可靠性监控。 该评估会执行编码任务，在隔离 Docker 环境中测试工具调用，每项任务重复五次，并使用归一化的 0-100 综合评分。该流水线将每小时分数汇总为每日中位数，并应用序贯变点检测；数据集目前已增长到 169,858 次运行和 22 个受监控模型，并检测到 Gemini 3.1 Flash Lite 的 32%持续性能下降。
+
+reddit · r/MachineLearning · /u/ionutvi · 8月29日 11:08
+
+**背景**: 大多数 LLM 基准测试只在单一时间点测量性能，忽略了时间稳定性。生成过程具有随机性，因此重复运行会有波动，但持续性变化可能表明模型更新或基础设施问题。AIStupidLevel 是一个采用 MIT 许可证的独立基准测试平台，持续监控模型在编码、推理、工具调用和金丝雀任务上的表现，以区分正常波动和真实漂移。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://aistupidlevel.info/">AI Benchmarks & Drift Detection 2026 | Live AI Model Rankings ...</a></li>
+<li><a href="https://aistupidlevel.info/about">About AI Stupid Level | Independent AI Benchmarking</a></li>
+<li><a href="https://huggingface.co/AIStupidLevel">AIStupidLevel (AI Stupid Level) - Hugging Face</a></li>
+
+</ul>
+</details>
+
+**标签**: `#LLM`, `#benchmarks`, `#evaluation`, `#temporal stability`, `#open-source`
+
+---
+
+<a id="item-8"></a>
+## [OpenAI 因 SpaceX 收购终止向 Cursor 提供模型，2026 年 11 月停服](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/) ⭐️ 8.0/10
+
+OpenAI 宣布将终止通过 Cursor 提供 OpenAI 模型的合同，建议停服日期为 2026 年 11 月 12 日。公司称原因是 SpaceX 收购 Cursor 带来的合规风险，并已给出合同允许的最大通知期。 这标志着两家知名 AI 公司之间的重大裂痕，也表明收购行为可能扰乱 AI 工具生态合作。同时凸显 OpenAI 不愿向马斯克旗下公司提供服务，将影响依赖 Cursor 中 OpenAI 模型功能的开发者。 OpenAI 表示无法确信 SpaceX 会遵守服务条款，理由是马斯克收购 Twitter 后有违约记录，且 xAI 今年早些时候在宣誓下承认违反 OpenAI 服务条款。定制协议允许 OpenAI 在控制权变更后的限时内取消合作，双方合作已近四年。
+
+telegram · zaihuapd · 8月29日 02:24
+
+**背景**: Cursor 是一款基于 Visual Studio Code 的 AI 优先代码编辑器，开发者可通过自然语言指令编写、调试和理解代码。Cursor 成立于 2022 年，最近估值达 293 亿美元，年经常性收入超过 30 亿美元。OpenAI 的决定源于 SpaceX 宣布收购 Cursor，也反映出 OpenAI 不与马斯克旗下公司做生意的政策。自马斯克收购 Twitter 以来，OpenAI 一直与其旗下企业保持距离，此次行动将这一立场扩展到了 AI 编程工具领域。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Cursor_(code_editor)">Cursor (code editor)</a></li>
+<li><a href="https://cursor.com/">AI Coding Agent for Building Ambitious Software | Cursor</a></li>
+<li><a href="https://medium.com/@tahirbalarabe2/what-is-cursor-ai-c02311d17853">What is Cursor AI?. Discover how Cursor AI is transforming… | by Tahir | Medium</a></li>
+
+</ul>
+</details>
+
+**标签**: `#OpenAI`, `#Cursor`, `#SpaceX`, `#AI industry`, `#acquisition`
+
+---
+
+<a id="item-9"></a>
+## [韩国选定 SKT、KT、Kakao 提供全民免费 AI 服务](https://www.koreatimes.co.kr/business/tech-science/20260828/skt-kt-kakao-consortiums-selected-for-free-ai-service-for-public) ⭐️ 8.0/10
+
+韩国科学技术信息通信部已选定由 SK Telecom、KT 和 Kakao 牵头的三个联合体运营“AI for All”项目，为全体国民免费提供无 token 限制的国产大模型 AI 服务。9 月启动内测，预计年底前正式上线。 此举让每位公民都能免费使用 AI 服务，推动 AI 普及与数字公平，同时通过依赖国产模型强化韩国的 AI 主权。这有望为其他国家的政府 AI 服务提供范例。 政府将向联合体提供 512 块英伟达 B200 芯片，并从 2027 年起补贴全国运营成本。该服务可接入政府系统，用于预约就诊、找房和税务咨询；值得注意的是，Naver 未参与该项目。
+
+telegram · zaihuapd · 8月29日 15:31
+
+**背景**: “AI for All” 项目是韩国推动 AI 主权战略的一部分，旨在减少对外国 AI 服务的依赖。韩国科技部从六个竞标联合体中选出了这三个。英伟达 B200 是一款面向 AI 工作负载的高端 GPU，而 token 限制通常约束大语言模型单次请求可处理的文本量；提供无 token 限制是一项显著突破。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.chosun.com/english/industry-en/2026/08/28/BWPFM6UCCZHUZKCI2FNADVOTHQ/">SK Telecom, Kakao, KT Selected for 'AI for All' Project</a></li>
+<li><a href="https://www.wsj.com/tech/ai/south-koreas-ai-for-all-push-gives-free-access-to-every-citizen-451f6b2c">South Korea’s ‘AI for All’ Push Gives Free Access to Every ...</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI`, `#Korea`, `#Government Policy`, `#LLM`, `#Public Service`
 
 ---
 
 <a id="item-10"></a>
-## [HarnessOpt-Bench：衡量 AI 改进其他 AI 的能力](https://www.reddit.com/r/MachineLearning/comments/1w052xg/can_ai_improve_itself_rsi_might_be_the_answer_r/) ⭐️ 8.0/10
+## [DHS 利用鲜为人知的关税法规监视记者与非营利组织](https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits) ⭐️ 7.0/10
 
-该 Reddit 帖子介绍了一个新基准 HarnessOpt-Bench，用于评估大型语言模型（LLM）在递归自我改进（RSI）环境下改进另一个智能体框架（即连接模型与工具和环境的代码脚手架）的能力。该基准采用严格的沙箱隔离和留出评估来防止作弊。 该基准解决了一个关键的 AI 安全问题：AI 系统能否安全地改进其他 AI 系统。它为研究递归自我改进提供了一种受控的、基于测量的方法，而递归自我改进对长期 AI 对齐和超级智能讨论至关重要。 该基准涉及 5 个前沿模型、4 个下游任务和 111 次运行，测试了两个假设：（1）在保持运行框架不变时更换模型会影响性能；（2）模型在其原生运行框架中可能没有‘主场优势’。结果显示，opencode 在 20 个模型-任务对中的 11 个中击败了原生运行框架（如 Claude Code、Codex、Kimi CLI），且模型选择的影响是运行框架选择的 1.8 倍。
+美国国土安全部（DHS）利用一项鲜为人知的关税法规（19 U.S.C. §1509），向记者、非营利组织和工会发出传票，索取其通讯记录。据报道，T-Mobile 遵守传票并交出六个月的电话记录，而谷歌则予以抵制；DHS 在传票受到法庭挑战后撤回了多项要求。 此事意义重大，因为它允许无证、秘密的监控，绕过了针对记者和公民社会团体的传统法律保障，可能对言论自由和维权活动形成寒蝉效应。同时，事件也表明，企业是否愿意抵制此类请求，往往决定这种监控能否得逞。 依据§1509，官员可以在没有搜查令的情况下索取记录，并常附有保密令，导致当事人事后才知情。该案中，DHS 从 T-Mobile 获取了 Fort 六个月的电话记录，涉及超过 10,000 通电话和短信；Fort 直到 7 月中旬才获知此事。此外，多份传票在法官作出裁决前就被撤回，以避免不利于政府的判例。
 
-reddit · r/MachineLearning · /u/shehio · 8月27日 20:13
+hackernews · firefax · 8月29日 18:44 · [社区讨论](https://news.ycombinator.com/item?id=49492219)
 
-**背景**: 递归自我改进（RSI）是一个假设的过程，其中 AI 系统改进自身的代码或能力，可能导致智能爆炸。智能体框架（agent harness）是使 LLM 能够作为智能体行动的软件基础设施，管理工具、记忆和执行。该基准旨在通过让‘优化者’LLM 改进另一个智能体的框架来安全地度量 RSI，并采用严格的沙箱隔离，防止优化者访问测试答案或奖励信号。
+**背景**: 美国法典第 19 编第 1509 条是关税相关法规，授予海关与边境保护局（CBP）广泛权力，可传唤“账簿、文件、记录或其他数据”并询问证人，以执行海关法律。2017 年，DHS 督察长办公室的一份管理警告指出，CBP 曾利用此传票权要求 Twitter 提供与其批评账号相关的记录，且 CBP 此后继续将其用于非海关目的。由于该法律不要求可能的理由或独立搜查令，它成为政府机构以较少监督获取敏感记录的替代途径。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2608.06301">[2608.06301] HarnessOpt-Bench: Evaluating LLMs at Harness Optimization</a></li>
-<li><a href="https://labs.scale.com/papers/harnessopt-bench">HarnessOpt-Bench: Evaluating LLMs at Harness Optimization | Scale Labs</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Recursive_self-improvement">Recursive self-improvement</a></li>
+<li><a href="https://www.law.cornell.edu/uscode/text/19/1509">19 U.S. Code § 1509 - Examination of books and witnesses | U.S. Code | US Law | LII / Legal Information Institute</a></li>
+<li><a href="https://www.oig.dhs.gov/node/4016">Management Alert - CBP's Use of Examination and Summons ...</a></li>
+<li><a href="https://docs.house.gov/meetings/JU/JU00/20260304/119001/HHRG-119-JU00-20260304-SD011-U11.pdf">Management Alert - CBP's Use of Examination and Summons ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#recursive self-improvement`, `#LLM agents`, `#AI safety`, `#benchmark`, `#alignment`
+**社区讨论**: 评论者认为，DHS 是故意利用§1509 来避免法院对其合法性作出裁决，并且没有企业真正被强制要求遵守——DHS 必须上法庭才能执行，因此 T-Mobile 这类妥协的公司也应受到谴责。他们对比了 T-Mobile 的顺从与谷歌的抵制，有人建议“朋友间不用短信/彩信”。另一人惊讶地表示政府竟然还需要法律依据，还有人建议使用小平台或申请独立 IP 段，但那会暴露大量个人信息。
+
+**标签**: `#privacy`, `#surveillance`, `#law`, `#DHS`, `#journalism`
 
 ---
 
 <a id="item-11"></a>
-## [Anthropic 推出模型硬件标准预览，AI 操控设备集成缩至分钟级](https://www.anthropic.com/news/model-hardware-standard-research-preview) ⭐️ 8.0/10
+## [三星在 Hot Chips 2026 展示存内处理架构](https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing) ⭐️ 7.0/10
 
-Anthropic 开放了模型硬件标准（MHS）的研究预览，这是一套让 AI 智能体安全操控显微镜、液体处理器、机械臂等物理设备的共享规范。该标准将设备集成时间从数周或数月缩短到几小时甚至几分钟，首批合作方包括基因泰克、卡内基梅隆大学和 QuEra。 这可能加速 AI 在科学研究和先进制造领域的应用，让 AI 智能体更轻松地连接实验室设备和机器人。它也标志着行业正转向可互操作、具备安全控制的硬件接口，Anthropic 计划在完成安全评估后开源该标准。 QuEra 基于 Anthropic Claude 构建的 AI 控制器在 700 次定时试验中于 695 次恢复了量子计算机的激光锁定，覆盖七种故障类型，且从未虚报成功恢复，成功率约 99.3%。MHS 在驱动程序层强制执行安全限制，位于 AI 智能体之下，Anthropic 还打算将该规范开源。
+三星在 Hot Chips 2026 上展示了其存内处理（PIM）架构，将计算放在存储器内部，而非独立的 CPU 中。该方案旨在减少数据搬运，从而缓解 AI 工作负载中的主要瓶颈。 三星作为主要内存厂商推进 PIM，可能加速以内存为中心的计算在实际中的采用，尤其是在 AI 和大规模数据分析领域。如果成功，可能重塑未来加速器和内存系统的设计方式。 该方案面向以矩阵乘法为主的工作负载，但把算力放入内存要求预先确定数据位置，并且仍然需要大量片上数据搬运。类似的 PIM 概念几十年前就在早期 VLSI 文献中出现过，并非全新思想。
 
-telegram · zaihuapd · 8月28日 01:38
+hackernews · ingve · 8月29日 06:06 · [社区讨论](https://news.ycombinator.com/item?id=49487341)
 
-**背景**: 模型硬件标准最初是 Anthropic 与 HHMI Janelia 研究园区合作启动的项目，旨在让 AI 加速科学研究。它通过统一接口让 AI 智能体发现、操作并排除物理设备故障，同时安全约束在驱动程序层实施，而非依赖智能体自身的判断。激光锁定是量子计算中一项高度依赖专家经验的关键任务，需要将激光频率与原子跃迁保持对齐。
+**背景**: 传统冯·诺依曼架构仍被大多数计算机采用，其存储器和处理器分离，数据必须通过共享总线在两者间搬运，这种带宽限制被称为“冯·诺依曼瓶颈”。存内处理（PIM）则将简单计算单元直接放入 DRAM 中，从而降低数据搬运能耗并提升内存密集型负载的性能。AI、游戏和加密常被认为是访问模式比较契合这种内存计算模型的典型应用。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.anthropic.com/news/model-hardware-standard-research-preview">Previewing the Model Hardware Standard \ Anthropic</a></li>
-<li><a href="https://modelhardwarestandard.com/">Model Hardware Standard</a></li>
-<li><a href="https://thequantuminsider.com/2026/08/28/quera-uses-anthropic-ai-agent-to-automate-critical-quantum-computer-process/">QuEra Uses Anthropic AI Agent to Automate Critical Quantum Computer Process</a></li>
+<li><a href="https://en.wikipedia.org/wiki/In-memory_processing">In-memory processing - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Von_Neumann_bottleneck">Von Neumann bottleneck</a></li>
+<li><a href="https://www.techtarget.com/whatis/definition/von-Neumann-bottleneck">What is the Von Neumann Bottleneck? - TechTarget</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#hardware`, `#robotics`, `#standards`, `#Anthropic`
+**社区讨论**: 评论者态度谨慎且怀疑：有人指出 PIM 会约束软件开发，因为数据依赖必须预先放在内存中；也有人提醒，每年展会上会出现大量类似的前沿加速器方案，最终大多没能落地。还有评论者认为，即使是矩阵乘法，数据搬运仍然是主要成本；另有人回忆，早在 1980 年前后的 VLSI 设计课程中就有“处理与存储融合”的类似想法。总体来看，大家认可这一概念，但质疑该具体实现是否实用。
+
+**标签**: `#processing-in-memory`, `#hardware`, `#AI acceleration`, `#semiconductors`, `#Hot Chips`
 
 ---
 
 <a id="item-12"></a>
-## [OpenAI 被曝开发常驻 Codex 代理，持续工作直至休眠](https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent/) ⭐️ 8.0/10
+## [CPT 暂停后，ML 博士实习对就业的重要性](https://www.reddit.com/r/MachineLearning/comments/1w19tav/how_important_is_having_an_internship_to_get_a/) ⭐️ 6.0/10
 
-据 WIRED 报道，OpenAI 正在为命令行版 Codex 添加「常驻模式」，让 AI 代理跨会话持续工作，直到用户将其「休眠」，而不是像现有模式那样在几分钟或几小时后停止。该模式内置主动性，答完请求后可自行创建后续任务。 这标志着 AI 代理朝向自主「后台」运行迈出重要一步——代理可以持续工作而不再局限于短时会话，可能改变软件工程工作流，并引发关于 AI 安全与人类监督的新问题。若广泛上线，OpenAI 有望在智能体（agent）竞赛中占得先机。 常驻模式目前面向命令行版 Codex，改动用户自身系统之外的内容仍需事先获得批准。OpenAI 已确认正在测试该功能，但暂无近期上线计划。
+一位国际机器学习博士生在 r/MachineLearning 上发帖询问，鉴于加州大学伯克利分校、斯坦福大学和 UIUC 等顶尖美国大学已暂停 CPT，实习对获得好的行业工作有多关键。该发帖人已在 CVPR、3DV 和 ICRA 发表三篇论文，并预计在 ICCV 和 NeurIPS 再发表两篇。 这一问题反映出随着顶尖大学暂停 CPT，机器学习与计算机科学领域的国际博士生对实习机会受限的担忧日益增加。由于实习通常是通往全职工作的途径，这一政策变化可能影响高素质国际人才在 AI 行业的职业前景。 该学生专攻三维重建和高斯泼溅，拥有扎实的发表记录，这可能弥补实习经验的不足。CPT（课程实习训练）是 F-1 签证学生的工作许可，而加州大学伯克利分校、加州大学洛杉矶分校、普渡大学和北卡罗来纳大学等已暂停该计划，导致发帖人在毕业前无法实习。
 
-telegram · zaihuapd · 8月28日 02:47
+reddit · r/MachineLearning · /u/Fit-Raccoon4534 · 8月29日 02:09
 
-**背景**: Codex 是 OpenAI 面向软件工程任务（如编写代码、修复缺陷）推出的 AI 编程代理，2025 年 4 月以 Codex CLI 形式发布，并通过 ChatGPT 网页版、桌面应用及多种 IDE 集成提供。现有的非常驻版本通常在几分钟或几小时后停止响应，因此这种可跨会话持续工作的常驻模式，代表着 AI 代理部署方式的一次重大设计转变。
+**背景**: CPT 允许 F-1 国际学生参加与专业直接相关的带薪或无薪校外培训，通常用于暑期实习。近期 ICE 的政策指导和审查加强导致许多大学暂停或限制 CPT，学生只能依赖毕业后的 OPT 或其他途径。实习被广泛视为获得行业研究职位的关键因素，但顶级会议上的高质量论文有时也能弥补不足。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/OpenAI_Codex_(AI_agent)">OpenAI Codex (AI agent) - Wikipedia</a></li>
+<li><a href="https://economictimes.indiatimes.com/nri/study/what-is-curricular-practical-training-and-what-does-the-latest-ice-memo-on-cpt-mean-a-guide-for-f-1-students/articleshow/133555868.cms">What is Curricular Practical Training and what does the latest ICE...</a></li>
+<li><a href="https://www.indianeagle.com/traveldiary/us-cpt-rules-f1-students-colleges-approvals/">US Clarifies CPT Rules for F-1 Students</a></li>
+<li><a href="https://www.ygunu.com/archives/26525">How International Students Can Stay in the US ... - ygunu.com</a></li>
 
 </ul>
 </details>
 
-**标签**: `#OpenAI`, `#Codex`, `#AI agents`, `#Autonomous AI`, `#Software engineering`
+**标签**: `#machine learning`, `#PhD`, `#internships`, `#international students`, `#career advice`
 
 ---
 
 <a id="item-13"></a>
-## [腾讯开源混元 Hy4 preview：770B 参数、1M 上下文](https://mp.weixin.qq.com/s/ymr3X878B8oa2XP15CH8TQ) ⭐️ 8.0/10
+## [统计/概率机器学习研究者发问：顶会被 LLM 主导，论文该投哪里？](https://www.reddit.com/r/MachineLearning/comments/1w0kipf/where_to_submit_statprob_ml_d/) ⭐️ 6.0/10
 
-2026 年 8 月 28 日，腾讯发布并开源了 Hy4 preview，一款总参数 770B、活跃参数 49B、上下文窗口达 1M token 的 MoE 大模型。在 203 个工程任务的盲评中，它获得 2.99 分，略胜 GLM-5.3（2.92 分）和 Kimi K3（2.94 分）。 此次发布标志着腾讯迄今最强开源模型的问世，也加剧了顶级开源权重大模型之间的竞争。其超大 MoE 架构、1M token 上下文和具有竞争力的盲测得分，使其成为 AI 从业者和企业的重要选择。 Hy4 preview 采用混合专家（MoE）架构，共 78 层，每个 token 激活 49B 参数。API 定价为每 100 万输入 token 0.834 美元、每 100 万输出 token 2.501 美元；模型已上线腾讯云、GitHub、Hugging Face、ModelScope、AtomGit 和 OpenRouter 等渠道。
-
-telegram · zaihuapd · 8月28日 06:11
-
-**背景**: 混合专家（MoE）是一种神经网络架构，它会将每个输入 token 路由到一小部分专家子网络，从而以接近稠密模型的推理成本实现远超其的参数量。长上下文窗口（如 Hy4 的 1M token）允许模型单次处理超长文档、代码库或对话。腾讯混元是腾讯的大模型系列，Hy4 preview 主攻长周期软件工程、文档办公与科学研究。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/">Tencent Releases and Open-Sources Tencent Hy4 preview - Tencent</a></li>
-<li><a href="https://technode.com/2026/08/28/tencent-open-sources-hy4-preview-with-770b-parameters-and-a-1m-token-context/">Tencent open-sources Hy4 preview with 770B parameters and a 1M-token context · TechNode</a></li>
-<li><a href="https://recipes.vllm.ai/tencent/Hy4-preview">tencent/Hy4-preview | vLLM Recipes</a></li>
-<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI`, `#LLM`, `#Tencent`, `#open-source`, `#model release`
-
----
-
-<a id="item-14"></a>
-## [Z.ai 发布 GLM-5.3-Flash：320B MoE 模型，仅 18B 激活，价格降九成](https://t.me/zaihuapd/43471) ⭐️ 8.0/10
-
-Z.ai 发布了 GLM-5.3-Flash，这是一款混合专家（MoE）模型，总参数 320B，激活参数仅 18B。它在多项编程和智能体基准上超过前代 GLM-5.2，价格约为上一代模型的十分之一。 此次发布凸显了 MoE 架构在低成本 AI 推理中的主流趋势，以极低价格即可获得接近前沿的性能。其激进定价可与 Claude Opus 4.8 相提并论，可能促使其他供应商降低 API 价格，利好开发者和企业。 限时 API 定价为：每百万输入 tokens 0.075 美元、每百万缓存输入 tokens 0.015 美元、每百万输出 tokens 0.25 美元，缓存存储暂时免费。尽管激活参数很少，该模型在多项基准上据称已接近 Claude Opus 4.8 的性能。
-
-telegram · zaihuapd · 8月28日 15:32
-
-**背景**: 混合专家（MoE）是一种将神经网络拆分为多个专门子网络（专家）的架构，通过路由器为每个 token 只激活最相关的专家。与每个 token 激活全部参数的稠密模型相比，MoE 能以低得多的算力运行总参数量巨大的模型。在 MoE 模型中，“激活参数”指推理时实际使用的参数子集，它比总参数量更能直接影响成本和速度。这种设计使 GLM-5.3-Flash 等模型能在保持较高能力的同时大幅降低 API 价格。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://huggingface.co/papers/2507.11181">Paper page - Mixture of Experts in Large Language Models</a></li>
-<li><a href="https://researchaudio.io/p/mixture-of-experts-moe-in-large-language-models">Mixture of Experts ( MoE ) in Large Language Models</a></li>
-<li><a href="https://www.f22labs.com/blogs/active-vs-total-parameters-whats-the-difference/">Active vs Total Parameters: What’s the Difference?</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI`, `#LLM`, `#GLM`, `#model release`, `#cost efficiency`
-
----
-
-<a id="item-15"></a>
-## [十二要素应用法再引热议：Hacker News 讨论凸显其持久价值](https://12factor.net/) ⭐️ 7.0/10
-
-2025 年，《十二要素应用》在 Hacker News 上再次被热议，获得了 221 分和 121 条评论，讨论其持续的相关性。讨论还批评了该方法论中关于配置的建议，尤其是将凭证存储在环境变量中的做法。 这次的再次热议表明，《十二要素应用》仍是现代云原生开发的基础参考。对其配置建议的建设性批评，可能会影响开发者未来在项目中处理密钥和环境设置的方式。 一个主要的批评指向第三章“配置”，认为将凭证存储在环境变量中导致开发者把密钥放到 .bashrc 文件中。有评论者推荐 varlock（varlock.dev），这是一个开源工具，通过验证、类型安全和防泄漏功能对 .env 语法进行了现代化改进。
-
-hackernews · jxmorris12 · 8月27日 22:41 · [社区讨论](https://news.ycombinator.com/item?id=49472216)
-
-**背景**: 《十二要素应用》是一种用于构建软件即服务应用程序的方法论，由 Heroku 的开发者创建。它包含十二条最佳实践，旨在确保应用在不同环境中的可移植性、韧性和干净的部署。自发布以来，该方法论已成为 DevOps 和云原生开发领域被广泛引用的参考。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Twelve-Factor_App_methodology">Twelve-Factor App methodology - Wikipedia</a></li>
-<li><a href="https://12factor.net/">The Twelve-Factor App</a></li>
-<li><a href="https://12factor.net/config">The Twelve-Factor App</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 整体情绪是正面的，许多人表示尽管不会应用每一条原则，该方法论仍值得一读。主要批评集中在过时的配置建议上，同时一些评论者表达了对 Heroku 简洁性的怀念，并指出应用这些概念需要通才型架构师的思维。
-
-**标签**: `#twelve-factor`, `#software-architecture`, `#devops`, `#best-practices`, `#config`
-
----
-
-<a id="item-16"></a>
-## [给 AI Agent 装科学常识，端到端仿真成功率从 0%提升到 84%](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247915782&idx=3&sn=edc0d6587aabe5bf1856cb0a9f37abdf) ⭐️ 7.0/10
-
-这篇文章报道了一种为 AI Agent 注入科学常识的新方法，使其端到端仿真成功率从 0%提升到 84%。文中强调，科学 Agent 不能只靠大模型，还需要一层共同的知识底座。 这种大幅提升表明，注入领域常识可以把彻底失败转变为接近可靠的性能，可能加速 AI Agent 在科学研究和复杂现实任务中的落地。它也揭示了 Agent 发展不能只依赖扩大大模型规模，知识底座同样关键。 0%的基线说明在缺乏常识底座时，Agent 在仿真环境中的所有端到端任务均失败；而 84%是加入知识层后的任务完成率。现有摘录中并未给出具体的评测基准、仿真环境或模型细节。
-
-rss · 量子位 · 8月27日 13:21
-
-**背景**: AI 领域的常识知识指关于日常世界的基本事实，例如“柠檬是酸的”或“奶牛会哞哞叫”，这类知识是人类都应当知道的，目前仍是通用人工智能中尚未解决的问题。由大模型驱动的 AI Agent 能够生成计划和推理，但在缺乏这类知识底座时，往往在物理或科学场景中失败。基于仿真的评测被越来越多地用于衡量 Agent 的可靠性，关注的不是静态模型准确率，而是端到端任务成功率。这篇文章与此趋势一致，提出常识底座可能是科学 Agent 值得信赖的必要组成部分。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Commonsense_knowledge_(artificial_intelligence)">Commonsense knowledge (artificial intelligence) - Wikipedia</a></li>
-<li><a href="https://developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-evaluation/">Mastering Agentic Techniques: AI Agent Evaluation | NVIDIA ...</a></li>
-<li><a href="https://maxim-articles.ghost.io/reliability-at-scale-how-simulation-based-evaluation-accelerates-ai-agent-deployment/">Reliability at Scale: How Simulation-Based Evaluation ...</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI Agent`, `#Scientific Reasoning`, `#Simulation`, `#Large Language Models`, `#Research`
-
----
-
-<a id="item-17"></a>
-## [统计/概率机器学习论文投哪里？研究者考虑 AISTATS/UAI 替代方案](https://www.reddit.com/r/MachineLearning/comments/1w0kipf/where_to_submit_statprob_ml_d/) ⭐️ 7.0/10
-
-一位统计/概率机器学习研究者表示，LLM 论文已占据 ICLR 和 NeurIPS 等顶级会议的主导地位，因此正在考虑改投 AISTATS 或 UAI。 这标志着机器学习研究社区可能出现分化，非 LLM 子领域在顶级会议上可能失去能见度和声望。这也引发质疑：NeurIPS 等会议是否仍能覆盖机器学习研究的全部广度。 该研究者指出，在 ICLR 上，每十张海报中不到一张与 LLM 无关，而 NeurIPS 的研讨会也大多是智能体相关主题。他们崇敬 Arnaud Doucet、Aapo Hyvärinen、Christian Naesseth 和 Stefano Ermon 等统计学家，这些人仍能在顶级会议发表论文。
+一位统计/概率机器学习研究者公开询问论文投稿去向，指出 ICLR 和 NeurIPS 等顶会被 LLM 和智能体（agentic）工作主导，并考虑将 AISTATS/UAI 作为替代选择。 这反映了主流 ML 会议与传统统计/概率 ML 子领域之间日益紧张的关系。如果这类研究者转向 AISTATS/UAI，可能会重塑这些会议的影响力和社区特色，同时也引发对顶会研究主题多样性的担忧。 作者提到了 Arnaud Doucet、Aapo Hyvärinen、Christian Naesseth、Stefano Ermon 等研究者仍在顶会发表论文，并指出 ICLR 和 NeurIPS 的 workshop 大多与智能体相关。该帖带有[D]标签，得分为 6.0，说明这是一个相关但技术新颖性不高的讨论。
 
 reddit · r/MachineLearning · /u/didimoney · 8月28日 08:16
 
-**背景**: 统计/概率机器学习专注于不确定性量化、贝叶斯推断和严谨的生成建模，历来是 NeurIPS、ICML 和 ICLR 等会议的核心内容之一。但大语言模型的迅速崛起改变了这些会议的重心，使非 LLM 的工作更难获得关注。AISTATS 和 UAI 是专注于人工智能中的统计与不确定性推理的专门会议，可能更契合这一研究方向。
+**背景**: AISTATS（国际人工智能与统计会议）是一个面向计算机科学、人工智能、机器学习、统计学等相关领域研究者的跨学科会议。UAI（人工智能不确定性会议）是研究不确定性下知识表示、学习和推理的顶级国际会议。Agentic AI（智能体 AI）指的是能够自主决策、采取行动并学习以实现特定目标的 AI 系统，是近期 LLM 研究的主要趋势。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://aistats.org/aistats2025/">Home| Artificial Intelligence and Statistics Conference</a></li>
-<li><a href="https://www.auai.org/uai2026/">uai2026 - auai.org</a></li>
+<li><a href="https://www.auai.org/uai2024/">UAI 2024</a></li>
+<li><a href="https://medium.com/bottutorials/ai-agents-vs-agentic-ai-whats-the-difference-and-why-does-it-matter-03159ee8c2b4">AI Agents vs Agentic AI : What’s the Difference and Why Does It Matter?</a></li>
 
 </ul>
 </details>
 
-**标签**: `#ML research`, `#conferences`, `#statistical ML`, `#probabilistic ML`, `#community discussion`
+**标签**: `#ML conferences`, `#probabilistic ML`, `#AISTATS`, `#UAI`, `#research community`
 
 ---
 
-<a id="item-18"></a>
-## [谷歌发布 Gemini Omni 1.1 Flash，支持 40 秒视频扩展与 4K 输出](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) ⭐️ 7.0/10
+<a id="item-14"></a>
+## [py-evoFE：基于遗传算法的自动化特征工程库](https://www.reddit.com/r/MachineLearning/comments/1w0788j/pyevofe_automated_evolutionary_feature/) ⭐️ 6.0/10
 
-谷歌发布了 Gemini Omni 1.1 Flash，这是一个面向开发者的生产就绪更新，提供对生成视频的更強控制。该模型支持以 10 秒增量扩展场景至累计 40 秒、指定首尾关键帧、生成 360p 草稿，以及输出 1080p 或 4K 分辨率。 此次更新通过为开发者提供可投入生产的工具来生成更长、更高分辨率的视频，巩固了谷歌在 AI 视频生成竞赛中的地位。它通过 Gemini API 和 Google AI Studio 开放了关键帧指定和 4K 输出等高级视频控制能力，有望加速各行业采用 AI 驱动的视频制作。 场景扩展功能以先前的 10 秒片段为参考，按 10 秒增量加长，累计最多 40 秒。该模型还支持首尾帧控制、快速 360p 草稿、视频参考、16:9 或 9:16 宽高比，以及为每个片段生成音频轨道的选项。
-
-telegram · zaihuapd · 8月28日 01:00
-
-**背景**: Gemini Omni 1.1 Flash 是谷歌 Gemini 系列多模态生成式 AI 模型的一部分，可处理文本、图像、视频和音频。Google AI Studio 于 2023 年 12 月与 Gemini API 一同推出，是一个基于网页的集成开发环境，用于构建 AI 应用原型。本次发布专注于让开发者更精细地控制 AI 生成视频，而 Veo 等工具和竞品模型也在这一领域快速进步。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/">Build with Gemini Omni 1 . 1 Flash</a></li>
-<li><a href="https://kie.ai/gemini-omni-1-1-flash">Gemini Omni 1 . 1 Flash API for Multimodal 4K Video | Kie AI</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Google_AI_Studio">Google AI Studio</a></li>
-
-</ul>
-</details>
-
-**标签**: `#google`, `#gemini`, `#video-generation`, `#AI`, `#developers`
-
----
-
-<a id="item-19"></a>
-## [美国国防部将 Anthropic 列入黑名单，国防公司停用 Claude](https://t.me/zaihuapd/43460) ⭐️ 7.0/10
-
-特朗普政府领导的美国国防部已将 Anthropic 列入黑名单，并将其 AI 技术认定为供应链风险。据 CNBC 报道，多家国防科技公司已要求员工停止使用 Claude，并切换到其他 AI 工具。 这标志着政府对知名 AI 供应商审查的显著升级，并可能限制 Anthropic 获得国防和政府合同的机会。这也迫使国防科技公司迅速寻找替代 AI 模型，可能重塑国防 AI 供应链。 黑名单决定具体将 Anthropic 的技术标记为供应链风险，而非出口管制或制裁措施。国防领域的公司被指示停止内部使用 Claude 模型，并迁移到竞争性 AI 工具以合规。
-
-telegram · zaihuapd · 8月28日 03:15
-
-**背景**: Anthropic 是一家美国人工智能公司，开发了 Claude 系列大语言模型，该模型于 2023 年 3 月作为聊天机器人首次发布。国防科技公司越来越多地将 Claude 等商业 AI 模型整合到其工作流程中。美国国防部的列入黑名单意味着这些公司必须寻找替代供应商以遵守政策。随着企业和机构增加对 AI 技术的支出，AI 公司吸引了大量投资，因此此类政府限制尤其影响重大。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Claude_(AI)">Claude ( AI ) - Wikipedia</a></li>
-<li><a href="https://www.forbes.com/lists/ai50/">Forbes 2026 AI 50 List | Top Artificial Intelligence Companies</a></li>
-
-</ul>
-</details>
-
-**标签**: `#Anthropic`, `#AI`, `#国防`, `#政策`, `#Claude`
-
----
-
-<a id="item-20"></a>
-## [美国 FTC 调查 YouTube 封号及内容政策](https://www.bloomberg.com/news/articles/2026-08-27/us-ftc-probing-youtube-over-social-media-policies) ⭐️ 7.0/10
-
-美国联邦贸易委员会（FTC）正在调查 Alphabet 旗下 YouTube 的封号及内容审核行为是否违反消费者保护法。这项调查自去年启动，目前已进入最后阶段，可能引发诉讼。 这是监管机构对大型平台内容政策执行方式的重大挑战，可能重塑内容审核的法律边界。若提起诉讼，YouTube 可能被迫使其实际执行与公开政策保持一致，影响数百万创作者和用户。 调查重点是 YouTube 在封禁或降权内容时是否违反其自身用户政策，以及用户是否被误导以为可以发布某些内容却遭到下架。YouTube 与 FTC 均拒绝置评，公司尚未被正式指控有不法行为。
-
-telegram · zaihuapd · 8月28日 07:48
-
-**背景**: FTC 负责执行美国消费者保护法，禁止不公平或欺骗性行为，近年来日益关注科技公司的服务条款与内容审核决策。根据美国法律，如果公司公开声称的内容政策在系统性地误导用户什么内容可以发布，就可能面临法律责任。YouTube 与其他大型平台一样，依靠社区准则并通过自动化系统和人工审核执行，有时会引发有争议的封号或删帖。
-
-**标签**: `#FTC`, `#YouTube`, `#regulation`, `#content moderation`, `#tech policy`
-
----
-
-<a id="item-21"></a>
-## [长鑫科技 2026 年上半年净利 776 亿元扭亏为盈](https://t.me/zaihuapd/43468) ⭐️ 7.0/10
-
-8 月 28 日晚，长鑫科技披露半年报，上半年营业收入 1503.1 亿元，同比增长 873.64%；归属于上市公司股东的净利润 776.05 亿元，上年同期为亏损 23.32 亿元，实现扭亏为盈。 这显示出 DRAM 需求激增和定价能力提升，毛利率高达 84.84%。作为中国领先的存储芯片企业之一，其强劲业绩可能增强中国半导体的自给能力，并预示着全球存储行业进入上行周期。 第二季度归母净利润为 528.43 亿元，较第一季度的 247.62 亿元环比增长 113%，增长动力明显加强。经营活动现金流量净额达 1311.56 亿元，同比大增 2985.64%；基本每股收益为 1.2893 元。
-
-telegram · zaihuapd · 8月28日 11:34
-
-**背景**: DRAM（动态随机存取存储器）是计算机中最常见的内存类型，用于个人电脑、服务器和智能手机。长鑫存储是一家总部位于合肥、专注于 DRAM 生产的中国半导体制造商，长鑫科技为其母公司。存储行业具有高度周期性，盈利波动主要受供需关系和价格周期影响。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/ChangXin_Memory_Technologies">ChangXin Memory Technologies - Wikipedia</a></li>
-<li><a href="https://techterms.com/definition/dram">DRAM Definition - What is DRAM ?</a></li>
-
-</ul>
-</details>
-
-**标签**: `#semiconductor`, `#financial results`, `#memory`, `#DRAM`, `#China tech`
-
----
-
-<a id="item-22"></a>
-## [Inception 风格弯曲导航地图引发争议](https://www.orbify.eu/demo/) ⭐️ 6.0/10
-
-Orbify 发布了一个 Inception 风格的逐向导航弯曲地图演示，将路线渲染在折叠的透视扭曲表面上。该演示在 Hacker News 上引发了大量讨论，获得了 425 个积分和 144 条评论。 该演示为导航显示探索了一种截然不同的视觉语言，可能为传达路线几何形状开辟新方式。然而，社区反馈褒贬不一，表明这一概念虽然有趣，但在真正应用于实体导航产品之前仍面临重大的可用性障碍。 批评者指出，该投影在转弯前无法显示前方道路，并且在急转弯后不会旋转视角以保持路径在画面中，从而降低了预测性。该演示也无法对连续转弯进行补偿，使得一系列快速操作难以跟随。
-
-hackernews · smoser · 8月28日 12:29 · [社区讨论](https://news.ycombinator.com/item?id=49477564)
-
-**背景**: “Inception 风格”效果灵感来源于 2010 年电影《盗梦空间》(Inception)，片中城市街道以不可能的方式折叠和弯曲。William Davis 的类似项目“Bending Maps, Inception Style”将多个具有不同俯仰角度的 Mapbox 地图拼接在一起，创造出折叠的城市景观。传统的逐向导航通常使用平面 2D 或 3D 透视地图；这种弯曲投影旨在显示更多上下文，但引入了扭曲和潜在的晕动感。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://googlemapsmania.blogspot.com/2026/08/bending-maps-inception-style.html">Bending Maps, Inception Style</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: Hacker News 线程上的观点褒贬不一。一些用户称赞它是一个“非常好的概念验证”，并表示自己会使用它，但另一些人批评它在转弯前不能提供任何路线信息，急转弯还会把道路推出屏幕。一个常见的建议是将即将到来的转弯居中显示，作为一种预判辅助，以帮助应对连续转弯。
-
-**标签**: `#maps`, `#navigation`, `#UI`, `#visualization`
-
----
-
-<a id="item-23"></a>
-## [机器学习社区分享优秀论文以提升学术写作](https://www.reddit.com/r/MachineLearning/comments/1w075pe/best_ml_papers_to_pick_up_writing_skills_d/) ⭐️ 6.0/10
-
-一位 Reddit 用户在 r/MachineLearning 版块发帖，请求推荐写得好的机器学习研究论文，以帮助博士生和早期研究人员提升学术写作能力。该帖是一个常规的求助讨论，而非技术发布。 清晰的写作对于有效传达机器学习研究至关重要，该讨论能帮助早期研究人员找到可作为写作范式的优秀论文。这也体现了社区在竞争激烈的领域中支持青年学者的持续努力。 原帖将"写得好的论文"定义为清晰地解释问题、方法的发展以及方法细节，同时让具备基本机器学习知识的读者容易理解的文章。发帖者指出，2015 年后的论文通常图表更好，但他特别寻找文字优秀的范例。
-
-reddit · r/MachineLearning · /u/fakeaccountlegitme · 8月27日 21:30
-
-**背景**: 学术写作是研究者的核心技能，但研究生课程中很少正式教授。许多学生通过阅读广受好评的论文来学习，尤其是在机器学习等快速发展、复杂方法需要清晰解释的领域。像 r/MachineLearning 这样的子版块是交流此类实用建议的非正式场所，本贴正是这种模式的一例。
-
-**标签**: `#machine learning`, `#research writing`, `#academic skills`, `#paper recommendations`
-
----
-
-<a id="item-24"></a>
-## [py-evoFE：面向表格机器学习的自动化遗传算法特征工程库](https://www.reddit.com/r/MachineLearning/comments/1w0788j/pyevofe_automated_evolutionary_feature/) ⭐️ 6.0/10
-
-py-evoFE v0.3.0 的发布引入了一个开源 Python 库，它利用遗传算法自动发现、组合并优化表格数据集的特征变换。该库 100% 兼容 Scikit-Learn，并使用 Polars 和 PyArrow 实现快速的向量化计算。 自动化特征工程是表格机器学习中的关键环节，模型的好坏往往取决于特征质量。py-evoFE 旨在减少人工负担，并避免暴力特征生成带来的过拟合和内存暴增问题，为数据科学家和 Kaggle 竞赛参与者提供了一个实用工具。 该库包含 40 多种内置变换器，涵盖目标编码、字符串相似度、流形方法和基于聚类的特征。它采用多保真度筛选、带 Gibbs 迁移的岛屿模型以及搜索后的 Caruana 集成，并提供交互式 HTML 回放查看器，便于检查演化出的特征配方。
+py-evoFE v0.3.0 是一个新的开源 Python 库，利用遗传编程自动发现并组合表格数据集的特征变换。它与 scikit-learn 流水线集成，并使用 Polars 进行向量化计算。 特征工程在表格机器学习中仍然至关重要，但手动或暴力方法要么繁琐，要么产生嘈杂的高维特征空间。py-evoFE 提供了一种实用的自动化替代方案，能够发现紧凑且高影响力的特征，有望提升竞赛和生产环境中的模型性能。 该库包含 40 多种内置变换器、层级链式组合、多保真度筛选、岛屿模型并行搜索和 Caruana 集成。它实现了 fit、transform、predict 和 predict_proba 方法，因此完全兼容 sklearn 的 Pipeline 和 GridSearchCV。
 
 reddit · r/MachineLearning · /u/tanopereira · 8月27日 21:33
 
-**背景**: 在表格机器学习中，特征工程往往是决定成败的因素，但手动构造特征耗时费力，而穷举式特征生成会导致搜索空间和内存占用爆炸。遗传编程早已被用于从原始数据构建新特征，py-evoFE 是这一思路的最新开源实现。相关的工作如 EvolutionaryForest 也通过遗传编程实现自动化特征工程，表明这是一个活跃的研究和工具领域。
+**背景**: 遗传编程是一种成熟的进化算法技术，通过演化程序或表达式来优化目标任务，已有研究将其应用于自动化特征工程。许多库会预先产生数千个特征，导致过拟合和内存问题；进化方法则会施加选择压力以寻找精简的解决方案。层级链式组合允许已进化的特征成为后续世代的构建块，从而生成如比率和分组聚合等复杂变换。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/hengzhe-zhang/EvolutionaryForest">GitHub - hengzhe-zhang/EvolutionaryForest: An open source python library for automated feature engineering based on Genetic Programming · GitHub</a></li>
-<li><a href="https://link.springer.com/chapter/10.1007/978-3-540-30217-9_117">Using Genetic Programming for Feature Creation with a Genetic Algorithm Feature Selector | Springer Nature Link</a></li>
-<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S156849462030764X">Designing genetic programming classifiers with feature selection and feature construction - ScienceDirect</a></li>
+<li><a href="https://github.com/tanopereira/evoFE">GitHub - tanopereira/evoFE: Automates feature engineering ...</a></li>
+<li><a href="https://link.springer.com/chapter/10.1007/978-981-96-0077-9_2">EvoFeat: Genetic Programming-Based Feature Engineering ...</a></li>
+<li><a href="https://www.scribbledata.io/blog/hierarchical-features-and-their-importance-in-feature-engineering/">Role of Hierarchies in Feature Engineering - Scribble Data</a></li>
 
 </ul>
 </details>
 
-**标签**: `#feature engineering`, `#genetic algorithms`, `#tabular ML`, `#Python library`, `#machine learning`
+**标签**: `#feature engineering`, `#genetic algorithms`, `#tabular ML`, `#scikit-learn`, `#Python`
 
 ---
 
-<a id="item-25"></a>
-## [谷歌员工内测 Gemini 3.8 Flash 预览版，称明显优于 3.7 Flash](https://www.businessinsider.com/google-employees-testing-next-gemini-flash-3-8-model-2026-8) ⭐️ 6.0/10
+<a id="item-15"></a>
+## [Claude Code 宣布周限额永久上调 25%](https://x.com/claudedevs/status/2093742321473065266?s=46) ⭐️ 6.0/10
 
-据报道，谷歌员工正通过内部编码平台 Jetski 测试下一代 Gemini 3.8 Flash 模型的预览版。一名测试者称，新模型明显优于目前的 3.7 Flash。 这表明谷歌在旗舰模型屡次延期的情况下，更加注重快速推出更便宜、更快的 Flash 系列模型。如果消息属实，Gemini 3.8 Flash 可能很快成为开发者和消费者寻求低成本 AI 性能的重要选择。 该预览版目前仅向员工内部开放，谷歌拒绝就此事置评。此前 3.6 Flash 于 7 月发布，3.7 Flash 约三周后跟进，若推出 3.8 Flash 将延续这种快速迭代节奏。
+Anthropic 宣布，自 9 月 14 日起，Claude Code 的 Pro、Max、Team 及按席位计费的企业版标准周限额将永久上调 25%。目前的临时 50% 增幅在此之前继续有效，因此与本周相比，可用额度将下降约 17%。 这次永久上调为重度 Claude Code 用户提供了比原始限额更高的每周使用基线，尽管比临时 50% 增幅有所回落。这表明 Anthropic 正在平衡需求与容量，同时仍提供比标准计划原始额度更多的容量。 17% 的降幅是相对本周（仍包含此前 50% 临时增幅）计算得出的。永久 25% 的上调自 9 月 14 日起适用于 Pro、Max、Team 及按席位计费的企业版计费层级。
 
-telegram · zaihuapd · 8月28日 09:38
+telegram · zaihuapd · 8月29日 17:06
 
-**背景**: Gemini Flash 是谷歌面向轻量级应用场景推出的模型系列，与大型旗舰模型相比，响应速度更快、成本更低。谷歌 CEO 皮查伊曾表示，公司计划几乎每月推出新的 Flash 模型，体现了一种高频小幅更新的策略。与此同时，据称 Gemini 旗舰大模型的发布已多次延期。
+**背景**: Claude Code 是 Anthropic 推出的智能编码工具，可在终端和 IDE 中运行，帮助开发者编辑代码、执行命令并更快交付。Anthropic 会定期调整 Claude Code 的使用限额以管理容量；2026 年 7 月初，它曾推出截止到 7 月 13 日的每周限额临时上调 50%，更早的 5 月还提高了五小时速率限制并取消了高峰时段削减。
 
-**标签**: `#Gemini`, `#Google`, `#AI`, `#LLM`, `#Tech News`
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.morphllm.com/claude-code-usage-limits">Claude Code Usage Limits (2026): Claude Pro Usage Limits , 5-Hour...</a></li>
+<li><a href="https://apidog.com/blog/claude-code-weekly-limits-50-percent-increase-july-2026/">Claude Code Weekly Limits Just Jumped 50% Through July 13: What...</a></li>
+<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Claude Code`, `#pricing`, `#limits`, `#announcement`
 
 ---
